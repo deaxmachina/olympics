@@ -12,7 +12,7 @@ const App = () => {
       <h1>Olympic Games Evolution</h1>
       <FirstTimeParticipate />
       <SustainabilityTimeline />
-      <FemalePies />
+      {/*<FemalePies />*/}
 
       
     </>
