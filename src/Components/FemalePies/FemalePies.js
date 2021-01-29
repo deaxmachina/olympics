@@ -7,6 +7,7 @@ import rough from 'roughjs/bundled/rough.cjs';
 import dataLoad from "../../data/female_summer_olympics.csv";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
+import Pie from "./Pie";
 
 const GraphExplain = () => {
   return (
@@ -27,11 +28,13 @@ const FemalePies = () => {
   /// states ///
   const [dataAll, setDataAll] = useState(null);
   const [revealGraphExplanation, setRevealGraphExplanation] = useState(false);
+  const [show, setShow] = useState(false)
 
   /// constatns ///
   // dimensions 
   const height = 600 + 70;
   const width = 1170;
+  const margin = {top: 20, right: 100, bottom: 0, left: 0}
   // for the pies 
   const pieSize = 145; 
   const innerRadius = 23;
@@ -60,24 +63,65 @@ const FemalePies = () => {
       /////////// Rough JS Define /////////////////
       /////////////////////////////////////////////
       let rc = rough.svg(document.getElementById("svg-female-pies"));
-      // this is how you could use rough js directly with the arc paths generated 
-      // below; but this way you won't be able to translate them 
-      // to the correct postions
-      //svg.appendChild(rc.path(arc(arcs[0]), { fill: "blue" }));
-      //svg.appendChild(rc.path(arc(arcs[1]), { fill: "red" }));
+
+
+      /////////////////////////
+      //// Legend on top /////
+      /////////////////////////
+      const legend = d3.select(legendRef.current)
+
+      // female
+      legend.each(function(d, i) {
+        d3.select(this).node()
+          .appendChild(
+            rc.circle(width - margin.right - 20, margin.top, 20, {
+              stroke: colourFemale,
+              strokeWidth: 1,
+              fillStyle: 'zigzag',
+              fill: colourFemale,
+              roughness: 1.7,
+          })
+        )
+      }) 
+      legend.selectAll(".legend-label-female").data(['female']).join("text")
+        .classed("legend-label-female", true)
+        .text(d => d)
+        .attr("transform", `translate(${width - margin.right}, ${margin.top})`)
+        .attr("dy", "0.35em")
+        .style("fill", colourFemale)
+
+      // male
+      legend.each(function(d, i) {
+        d3.select(this).node()
+          .appendChild(
+            rc.circle(width - margin.right - 100, margin.top, 20, {
+              stroke: colourMale,
+              strokeWidth: 1,
+              fillStyle: 'cross-hatch',
+              fill: colourMale,
+              roughness: 1.7,
+          })
+        )
+      }) 
+      legend.selectAll(".legend-label-male").data(['male']).join("text")
+        .classed("legend-label-male", true)
+        .text(d => d)
+        .attr("transform", `translate(${width - margin.right - 85}, ${margin.top})`)
+        .attr("dy", "0.35em")
+        .style("fill", colourMale)
+
+
 
       /////////////////////////////////////////////
       //////////////// Graph //////////////////////
       /////////////////////////////////////////////
       const svgD3 = d3.select(svgRef.current).attr("width", width).attr("height", height);
-
       // 1. Pie
       // this is what you use on the data
       const pie = d3
         .pie()
         .sort(null)
         .value((d) => d.percentage);
-      //const arcs = pie(data);
 
       // 2. Arc
       // this is what you use when drawing the graph
@@ -88,38 +132,6 @@ const FemalePies = () => {
         .outerRadius(outerRadius)
         .padAngle(padAngle)
         .cornerRadius(conerRadius);
-
-      /// Graph ///
-
-      // Legend on top 
-      const gLegend = d3.select(legendRef.current)
-        .selectAll(".legend-g-48")
-        .data(['female', 'male'])
-        .join("g")
-        .classed("legend-g-48", true)
-          .attr("transform", (d, i) => `translate(${i*150 + 50}, ${0})`)
-
-      const legendRects = gLegend
-       .append("rect")
-        .attr("width", 70)
-        .attr("height", 25)
-        .attr("fill", (d, i) => d == "female" ? colourFemale : colourMale)
-        .attr("rx", 10)
-        .attr("ry", 10)
-
-      const legendText = gLegend
-        .append("text")
-          .text(d => d)
-          .attr("font-size", "14px")
-          .attr("dy", "0.35em")
-          .attr("y", 12)
-          .attr("x", 10)
-          .attr("text-anchor", 'start')
-          .attr("font-family", 'sans-serif')
-          .style("fill", "white")
-
-
-
       // Graph area
       const g = d3.select(gRef.current)
         .attr("transform", `translate(${0}, ${70})`)
@@ -142,7 +154,7 @@ const FemalePies = () => {
       const pieChartsText = groups
         .append("text")
         .text(d => d)
-        .attr("class", "pie-text-48")
+        .attr("class", "pie-text")
         .attr("dy", "0.35em")
         .attr("text-anchor", "middle")
         .style("fill", colourFemale)
@@ -180,7 +192,7 @@ const FemalePies = () => {
         });
 
     } 
-  }, [dataAll]);
+  }, [dataAll, show]);
 
   const toggleGraphExplanation = () => {
     setRevealGraphExplanation(!revealGraphExplanation)
@@ -202,13 +214,20 @@ const FemalePies = () => {
         : null
       } 
 
-      <div className="wrapper wrapper-female-pies">
-        <svg id="svg-female-pies" ref={svgRef} width={width} height={height}>
-          <g ref={legendRef}></g>
-          <g ref={gRef}></g>
-        </svg>
-      </div>
-
+      {
+        !show ? <Pie show={show} setShow={setShow}/> : null
+      }
+      {
+        show ?
+          <div className="wrapper wrapper-female-pies">
+            <svg id="svg-female-pies" ref={svgRef} width={width} height={height}>
+              <g ref={legendRef}></g>
+              <g ref={gRef}></g>
+            </svg>
+          </div>
+        : null
+      }
+      
     </div>
   )
 };

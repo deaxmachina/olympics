@@ -11,3 +11,15 @@
   width: 60%;
   border-radius: 100px;
 }
+
+.reveal-button-pie {
+  position: absolute;
+  background-color: white;
+  color: #AB2E64;
+  border: 5px solid #AB2E64;
+  padding: 20px 15px;
+  border-radius: 60px;
+  cursor: default;
+  font-weight: bold;
+  font-size: 18px;
+}

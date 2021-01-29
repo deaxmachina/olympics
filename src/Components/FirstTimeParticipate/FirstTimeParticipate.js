@@ -234,7 +234,7 @@ const FirstTimeParticipate = () => {
       // X Axis 
       const legendXAxis = g => g
         .call(d3.axisBottom(legendScale).tickFormat(
-          i => i == "missing" ? "no longer exists / other" : i
+          i => i == "missing" ? "no longer exists / renamed / other" : i
         ))
         .attr("transform", `translate(${0}, ${45})`)
         .call(g => g.select(".domain").remove())
@@ -262,7 +262,9 @@ const FirstTimeParticipate = () => {
             .style("opacity", d => d == datum ? 1 : 0.06)
           )
           nodes
-            .attr("fill-opacity", d => d.continent == datum ? 0.8 : 0.06)
+            .attr("fill-opacity", d => 
+            d.continent == datum ? 0.8 : 0.06
+            )
             .attr("stroke-opacity", d => d.continent == datum ? 1 : 0.1)
         })
 
