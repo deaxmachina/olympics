@@ -1,0 +1,52 @@
+.wrapper-first-time {
+  overflow: scroll;
+}
+
+.page-container-first-time {
+  color: #219ebc;
+}
+
+.graph-title-first-time {
+  margin: auto;
+  font-size: 32px;
+  background-color: white;
+  padding: 8px;
+  width: 60%;
+  border-radius: 100px;
+}
+
+.play-button-first-time {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: white;
+  border: 5px solid #219ebc;
+  padding: 15px;
+  border-radius: 50px;
+  cursor: default;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.play-button-first-time:hover {
+  background-color: #219ebc;
+  color: white;
+}
+
+.tooltip-first-time {
+  opacity: 0;
+  position: absolute;
+  border: 1.5px dotted #219ebc;
+  box-shadow: 5px 5px 1px 1px rgba(33,158,188, 0.8) ;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  padding: 0.8em;
+  background: white;
+  color: black;
+  z-index: 10;
+  transition: all 0.2s ease-out;
+  pointer-events: none;  
+  width: 100px;
+  text-align: center;
+}
