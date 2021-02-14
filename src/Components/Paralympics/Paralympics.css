@@ -1,0 +1,58 @@
+
+.wrapper-paralympics {
+  position: relative;
+}
+
+.page-container-paralympics {
+  color: #219ebc;
+}
+
+.graph-title-paralympics {
+  margin: auto;
+  font-size: 32px;
+  background-color: white;
+  padding: 8px;
+  width: 60%;
+  border-radius: 100px;
+}
+
+.tooltip-paralympics {
+  opacity: 0;
+  position: absolute;
+  border: 1.5px dotted #219ebc;
+  box-shadow: 5px 5px 1px 1px rgba(33,158,188, 0.8) ;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  padding: 0.8em;
+  background: white;
+  color: #219ebc;
+  z-index: 10;
+  transition: all 0.2s ease-out;
+  pointer-events: none;  
+  text-align: left;
+  font-size: 14px;
+  overflow:visible
+}
+
+svg {
+  overflow:visible
+}
+
+.paralympics-label-top, .paralympics-label-bottom  {
+  transform: rotate(0deg);
+  position: absolute;
+  left: 0px;
+  text-transform: uppercase;
+  background-color: white;
+  padding: 2px;
+}
+
+.paralympics-label-top {
+  top: 230px;
+}
+
+.paralympics-label-bottom {
+  top: 350px;
+  color: #ff006e
+}

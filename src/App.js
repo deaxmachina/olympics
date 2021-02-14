@@ -3,7 +3,7 @@ import "./App.css";
 import FemalePies from "./Components/FemalePies/FemalePies";
 import SustainabilityTimeline from "./Components/SustainabilityTimeline/SustainabilityTimeline";
 import FirstTimeParticipate from "./Components/FirstTimeParticipate/FirstTimeParticipate"
-import Pie from "./Components/FemalePies/Pie";
+import Paralympics from "./Components/Paralympics/Paralympics";
 
 const App = () => {
   
@@ -13,6 +13,7 @@ const App = () => {
       <FirstTimeParticipate />
       <SustainabilityTimeline />
       <FemalePies />
+      <Paralympics />
 
       
     </>
