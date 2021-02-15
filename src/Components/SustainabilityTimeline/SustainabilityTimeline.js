@@ -18,7 +18,10 @@ const GraphExplain = () => {
         </a>
       </p>
       <p className="disclaimer"> 
-        Timeline of major positive and negative envornmental events/initiatives/outcomes at or realted to the Olympics. Based on events described in paper by Maria Konstantaki (2018). Refer to the source for more details and methodology. 
+        Timeline of major positive and negative envornmental events/initiatives/outcomes at or realted to the Olympics. Based on events described in paper by Maria Konstantaki (2018). 
+      </p>
+      <p className="disclaimer"> 
+        What do you think the positive and negative environmental impacts of the Olympics are? Do you know about the recycling efforts for Tokyo 2020? Why do you think the medals were made from recycled electronics, for example? What would you do? 
       </p>
     </div>
   )
@@ -137,7 +140,7 @@ const SustainabilityTimeline = () => {
                 : -100, 
                 80, {
                 stroke: d.polarity == 'negative' ? negativeColour : positiveColour,
-                strokeWidth: 1.3,
+                strokeWidth: 1.7,
                 fillStyle: d.olympics == 'no' ? 'zigzag-line' : 'cross-hatch',
                 fill: d.polarity == 'negative' ? negativeColour : positiveColour,
                 roughness: 2,
@@ -154,9 +157,9 @@ const SustainabilityTimeline = () => {
         .classed("event-circle", true)
           .attr("cx", 0)
           .attr("cy", d => d.polarity == "negative"? 100 : d.olympics == "no" ? -200 : -100)
-          .attr("r", 80)
-          .attr("opacity", 0.0001)
-          //.attr("fill", 'none')
+          .attr("r", 40)
+          .attr("opacity", 0.5)
+          .attr("fill", d => d.polarity == 'negative' ? negativeColour : positiveColour)
 
 
       /// Tooltip ///
@@ -239,13 +242,14 @@ const SustainabilityTimeline = () => {
 
   return (
     <div className="page-container page-container-sustainability-timeline">
+      <div className="mascot-sustainability-timeline"></div>
       <h2 className="graph-title-sustainability-timeline">How do the Olympics impact the environment?</h2>
       <button 
         className="graph-explain-icon" 
         onClick={toggleGraphExplanation}
       >
         <FontAwesomeIcon icon={faBookOpen} />
-        <span className="info-span">info</span>
+        <span className="info-span"></span>
       </button>  
       {
         revealGraphExplanation 

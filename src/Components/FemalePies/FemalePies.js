@@ -13,7 +13,8 @@ const GraphExplain = () => {
   return (
     <div className="graph-explain-container">
       <p>Data source: <a href="https://stillmed.olympic.org/media/Document%20Library/OlympicOrg/Factsheets-Reference-Documents/Women-in-the-Olympic-Movement/Factsheet-Women-in-the-Olympic-Movement.pdf" target="_blank">IOC</a></p>
-      <p className="disclaimer">*Female and male participation in the Summer Olympics; numbers are approximate</p>
+      <p className="disclaimer">Female and male participation in the Summer Olympics; numbers are approximate.</p>
+      <p className="disclaimer">Why do you think the female athlete participation in the Olympics used to be so low? What has changed? What do you think will happen in the future?</p>
     </div>
   )
 }
@@ -170,6 +171,7 @@ const FemalePies = () => {
             {gender: "female", percentage: dataForYear[0].proportion}
           ]
           
+          // rough pie chart 
           d3.select(this).node()
           // draw part for the male 
             .appendChild(
@@ -200,13 +202,13 @@ const FemalePies = () => {
 
   return (
     <div className="page-container page-container-female-pies">
-      <h2 className="graph-title-female-pies">What is the gender split at the Olympics?</h2>
+      <h2 className="graph-title-female-pies">What is the athelete gender split at the Olympics?</h2>
       <button 
         className="graph-explain-icon" 
         onClick={toggleGraphExplanation}
       >
         <FontAwesomeIcon icon={faBookOpen}/>
-        <span className="info-span">info</span>
+        <span className="info-span"></span>
       </button>  
       {
         revealGraphExplanation 

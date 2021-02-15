@@ -18,6 +18,12 @@ import { annotationCalloutElbow, annotationCalloutCurve, annotation } from "d3-s
 const GraphExplain = () => {
   return (
     <div className="graph-explain-container">
+      <p>Data source: 
+        <a href="https://en.wikipedia.org/wiki/Summer_Paralympic_Games" target="_blank"> Wikipedia </a> 
+        and 
+        <a href="https://www.britannica.com/sports/Paralympic-Games" target="_blank"> Britannica </a> 
+      </p>
+      <p className="disclaimer">Were you surprised to learn about the beginnings of the Patalympics; what did you think before? Research the qualifying criterial for athletes over time. Is there a trend? If you could include other groups of people, which would they be?</p>
     </div>
   )
 }
@@ -29,7 +35,8 @@ const Paralympics = () => {
   const xAxisRef = useRef();
   const gAthletesRef = useRef();
   const gSportsRef = useRef();
-  const tooltipRef = useRef();
+  const tooltipParticipantsRef = useRef();
+  const tooltipSportsRef = useRef();
   const annotationRef = useRef();
 
   /// states ///
@@ -38,7 +45,7 @@ const Paralympics = () => {
   const [sports, setSports] = useState(null);
   const [sportsLogos, setSportsLogos] = useState(null);
   const [revealGraphExplanation, setRevealGraphExplanation] = useState(false);
-  const [selectedEvent, setSelectedEvent] = useState(null);
+
 
   /// constatns ///
   // dimensions 
@@ -159,10 +166,10 @@ const Paralympics = () => {
       ///////////////////
       ///// Tooltip /////
       ///////////////////
-      const tooltip = d3.select(tooltipRef.current)
+      const tooltipParticipants = d3.select(tooltipParticipantsRef.current)
       athleteBarsGroups
         .on('mouseenter', (e, datum) => {
-          tooltip 
+          tooltipParticipants 
           .style('transform', d => `translate(
               ${xScale(+datum.year) - xScale.bandwidth()/2}px,
               ${yScaleAthletes(datum.competitors) - 120}px`
@@ -177,7 +184,7 @@ const Paralympics = () => {
           `)
         })
         .on('mouseleave', () => {
-          tooltip.style("opacity", 0)
+          tooltipParticipants.style("opacity", 0)
         })
 
     /////////////////////
@@ -253,8 +260,6 @@ const Paralympics = () => {
       function tick() {
         sportsG
         .attr("transform", d => `translate(${d.x}, ${d.y})`)
-        //.attr("cx", d => d.x)
-        //.attr("cy", d => d.y);
       }
       /// define the force ///
       const simulation = d3.forceSimulation(dataSports)
@@ -266,6 +271,36 @@ const Paralympics = () => {
       simulation.on("tick", tick)
       tick()
 
+      ///////////////////
+      ///// Tooltip /////
+      ///////////////////
+      const tooltipSports = d3.select(tooltipSportsRef.current)
+    
+      // Events when the sports circles are hovered, including tooltip
+      sportsG
+        .on('mouseenter', (e, datum) => {
+          // move the tooltip 
+          tooltipSports 
+          .style('transform', d => `translate(
+            ${xScale(+datum.year)}px,
+            ${height + 30}px`
+          ) 
+          .style("opacity", 1)
+          .html(`${datum.sport}`)
+          // make the selected circle bigger 
+          sportsDots
+            //.attr("r", d => d == datum ? sportsRadius*2 : sportsRadius)
+            .attr("fill", d => d == datum ? 'white' : colourScaleSports[_.indexOf(sports,d.sport)])
+            //.attr("stroke-width", d => d == datum ? 0 : 2)
+          // make the logo bigger
+        })
+        .on('mouseleave', () => {
+          tooltipSports.style("opacity", 0)
+          sportsDots
+            .attr("fill", d => colourScaleSports[_.indexOf(sports,d.sport)])
+            .attr("stroke-width", 2)
+        })
+
 
     } 
   }, [data, dataSports, sports, sportsLogos]);
@@ -276,13 +311,13 @@ const Paralympics = () => {
 
   return (
     <div className="page-container page-container-paralympics">
-      <h2 className="graph-title-paralympics">What is the history of the Paralympics</h2>
+      <h2 className="graph-title-paralympics">What is the history and timeline of the Paralympics?</h2>
       <button 
         className="graph-explain-icon" 
         onClick={toggleGraphExplanation}
       >
         <FontAwesomeIcon icon={faBookOpen} />
-        <span className="info-span">info</span>
+        <span className="info-span"></span>
       </button>  
       {
         revealGraphExplanation 
@@ -297,9 +332,11 @@ const Paralympics = () => {
             <g ref={xAxisRef} className="g-axis"></g>
             <g ref={annotationRef}></g>
         </svg>
-        <div className="tooltip-paralympics" ref={tooltipRef}>Tooltip</div>
+        <div className="tooltip-paralympics-participants" ref={tooltipParticipantsRef}>Tooltip</div>
+        <div className="tooltip-paralympics-sports" ref={tooltipSportsRef}></div>
         <div className="paralympics-label-top">participants</div>
         <div className="paralympics-label-bottom">sports</div>
+        <div className="mascot"></div>
       </div>
 
     </div>

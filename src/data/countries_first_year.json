@@ -1,1 +1,1584 @@
-[{"country": "Afghanistan", "ISO": "AFG", "IOC": "AFG", "continent": "Asia", "first_year": "1936"}, {"country": "Netherlands Antilles", "ISO": "missing", "IOC": "AHO", "continent": "missing", "first_year": "1952"}, {"country": "Albania", "ISO": "ALB", "IOC": "ALB", "continent": "Europe", "first_year": "1972"}, {"country": "Algeria", "ISO": "DZA", "IOC": "ALG", "continent": "Africa", "first_year": "1964"}, {"country": "Andorra", "ISO": "AND", "IOC": "AND", "continent": "Europe", "first_year": "1976"}, {"country": "Angola", "ISO": "AGO", "IOC": "ANG", "continent": "Africa", "first_year": "1980"}, {"country": "Antigua and Barbuda", "ISO": "ATG", "IOC": "ANT", "continent": "North America", "first_year": "1976"}, {"country": "Australasia", "ISO": "missing", "IOC": "ANZ", "continent": "missing", "first_year": "1908"}, {"country": "Argentina", "ISO": "ARG", "IOC": "ARG", "continent": "South America", "first_year": "1900"}, {"country": "Armenia", "ISO": "ARM", "IOC": "ARM", "continent": "Europe", "first_year": "1996"}, {"country": "Aruba", "ISO": "ABW", "IOC": "ARU", "continent": "North America", "first_year": "1988"}, {"country": "American Samoa", "ISO": "ASM", "IOC": "ASA", "continent": "Oceania", "first_year": "1988"}, {"country": "Australia", "ISO": "AUS", "IOC": "AUS", "continent": "Oceania", "first_year": "1896"}, {"country": "Austria", "ISO": "AUT", "IOC": "AUT", "continent": "Europe", "first_year": "1896"}, {"country": "Azerbaijan", "ISO": "AZE", "IOC": "AZE", "continent": "Europe", "first_year": "1996"}, {"country": "Bahamas", "ISO": "BHS", "IOC": "BAH", "continent": "North America", "first_year": "1952"}, {"country": "Bangladesh", "ISO": "BGD", "IOC": "BAN", "continent": "Asia", "first_year": "1984"}, {"country": "Barbados", "ISO": "BRB", "IOC": "BAR", "continent": "North America", "first_year": "1968"}, {"country": "Burundi", "ISO": "BDI", "IOC": "BDI", "continent": "Africa", "first_year": "1996"}, {"country": "Belgium", "ISO": "BEL", "IOC": "BEL", "continent": "Europe", "first_year": "1900"}, {"country": "Benin", "ISO": "BEN", "IOC": "BEN", "continent": "Africa", "first_year": "1972"}, {"country": "Bermuda", "ISO": "BMU", "IOC": "BER", "continent": "North America", "first_year": "1936"}, {"country": "Bhutan", "ISO": "BTN", "IOC": "BHU", "continent": "Asia", "first_year": "1984"}, {"country": "Bosnia and Herzegovina", "ISO": "BIH", "IOC": "BIH", "continent": "Europe", "first_year": "1992"}, {"country": "Belize", "ISO": "BLZ", "IOC": "BIZ", "continent": "North America", "first_year": "1968"}, {"country": "Belarus", "ISO": "BLR", "IOC": "BLR", "continent": "Europe", "first_year": "1996"}, {"country": "Bohemia", "ISO": "missing", "IOC": "BOH", "continent": "missing", "first_year": "1900"}, {"country": "Bolivia", "ISO": "BOL", "IOC": "BOL", "continent": "South America", "first_year": "1936"}, {"country": "Botswana", "ISO": "BWA", "IOC": "BOT", "continent": "Africa", "first_year": "1980"}, {"country": "Brazil", "ISO": "BRA", "IOC": "BRA", "continent": "South America", "first_year": "1920"}, {"country": "Bahrain", "ISO": "BHR", "IOC": "BRN", "continent": "Asia", "first_year": "1984"}, {"country": "Brunei", "ISO": "BRN", "IOC": "BRU", "continent": "Asia", "first_year": "1996"}, {"country": "Bulgaria", "ISO": "BGR", "IOC": "BUL", "continent": "Europe", "first_year": "1924"}, {"country": "Burkina Faso", "ISO": "BFA", "IOC": "BUR", "continent": "Africa", "first_year": "1972"}, {"country": "British West Indies", "ISO": "missing", "IOC": "BWI", "continent": "missing", "first_year": "1960"}, {"country": "Central African Republic", "ISO": "CAF", "IOC": "CAF", "continent": "Africa", "first_year": "1968"}, {"country": "Cambodia", "ISO": "KHM", "IOC": "CAM", "continent": "Asia", "first_year": "1964"}, {"country": "Canada", "ISO": "CAN", "IOC": "CAN", "continent": "North America", "first_year": "1900"}, {"country": "Cayman Islands", "ISO": "CYM", "IOC": "CAY", "continent": "North America", "first_year": "1976"}, {"country": "Republic of the Congo", "ISO": "COG", "IOC": "CGO", "continent": "Africa", "first_year": "1964"}, {"country": "Chad", "ISO": "TCD", "IOC": "CHA", "continent": "Africa", "first_year": "1964"}, {"country": "Chile", "ISO": "CHL", "IOC": "CHI", "continent": "South America", "first_year": "1912"}, {"country": "China", "ISO": "CHN", "IOC": "CHN", "continent": "Asia", "first_year": "1952"}, {"country": "Ivory Coast", "ISO": "CIV", "IOC": "CIV", "continent": "Africa", "first_year": "1964"}, {"country": "Cameroon", "ISO": "CMR", "IOC": "CMR", "continent": "Africa", "first_year": "1964"}, {"country": "Democratic Republic of the Congo", "ISO": "COD", "IOC": "COD", "continent": "Africa", "first_year": "1968"}, {"country": "Cook Islands", "ISO": "COK", "IOC": "COK", "continent": "Oceania", "first_year": "1988"}, {"country": "Colombia", "ISO": "COL", "IOC": "COL", "continent": "South America", "first_year": "1932"}, {"country": "Comoros", "ISO": "COM", "IOC": "COM", "continent": "Africa", "first_year": "1996"}, {"country": "Cape Verde", "ISO": "CPV", "IOC": "CPV", "continent": "Africa", "first_year": "1996"}, {"country": "Costa Rica", "ISO": "CRI", "IOC": "CRC", "continent": "North America", "first_year": "1936"}, {"country": "Croatia", "ISO": "HRV", "IOC": "CRO", "continent": "Europe", "first_year": "1992"}, {"country": "Cuba", "ISO": "CUB", "IOC": "CUB", "continent": "North America", "first_year": "1900"}, {"country": "Cyprus", "ISO": "CYP", "IOC": "CYP", "continent": "Europe", "first_year": "1980"}, {"country": "Czech Republic", "ISO": "CZE", "IOC": "CZE", "continent": "Europe", "first_year": "1996"}, {"country": "Denmark", "ISO": "DNK", "IOC": "DEN", "continent": "Europe", "first_year": "1896"}, {"country": "Djibouti", "ISO": "DJI", "IOC": "DJI", "continent": "Africa", "first_year": "1984"}, {"country": "Dominica", "ISO": "DMA", "IOC": "DMA", "continent": "North America", "first_year": "1996"}, {"country": "Dominican Republic", "ISO": "DOM", "IOC": "DOM", "continent": "North America", "first_year": "1964"}, {"country": "Ecuador", "ISO": "ECU", "IOC": "ECU", "continent": "South America", "first_year": "1924"}, {"country": "Egypt", "ISO": "EGY", "IOC": "EGY", "continent": "Africa", "first_year": "1912"}, {"country": "Eritrea", "ISO": "ERI", "IOC": "ERI", "continent": "Africa", "first_year": "2000"}, {"country": "El Salvador", "ISO": "SLV", "IOC": "ESA", "continent": "North America", "first_year": "1968"}, {"country": "Spain", "ISO": "ESP", "IOC": "ESP", "continent": "Europe", "first_year": "1900"}, {"country": "Estonia", "ISO": "EST", "IOC": "EST", "continent": "Europe", "first_year": "1920"}, {"country": "Ethiopia", "ISO": "ETH", "IOC": "ETH", "continent": "Africa", "first_year": "1956"}, {"country": "United Team of Germany", "ISO": "missing", "IOC": "EUA", "continent": "missing", "first_year": "1956"}, {"country": "Unified Team", "ISO": "missing", "IOC": "EUN", "continent": "missing", "first_year": "1992"}, {"country": "Fiji", "ISO": "FJI", "IOC": "FIJ", "continent": "Oceania", "first_year": "1956"}, {"country": "Finland", "ISO": "FIN", "IOC": "FIN", "continent": "Europe", "first_year": "1908"}, {"country": "France", "ISO": "FRA", "IOC": "FRA", "continent": "Europe", "first_year": "1896"}, {"country": "West Germany", "ISO": "missing", "IOC": "FRG", "continent": "missing", "first_year": "1968"}, {"country": "Federated States of Micronesia", "ISO": "FSM", "IOC": "FSM", "continent": "Oceania", "first_year": "2000"}, {"country": "Gabon", "ISO": "GAB", "IOC": "GAB", "continent": "Africa", "first_year": "1972"}, {"country": "The Gambia", "ISO": "GMB", "IOC": "GAM", "continent": "Africa", "first_year": "1984"}, {"country": "Great Britain", "ISO": "GBR", "IOC": "GBR", "continent": "Europe", "first_year": "1896"}, {"country": "Guinea-Bissau", "ISO": "GNB", "IOC": "GBS", "continent": "Africa", "first_year": "1996"}, {"country": "East Germany", "ISO": "missing", "IOC": "GDR", "continent": "missing", "first_year": "1968"}, {"country": "Georgia", "ISO": "GEO", "IOC": "GEO", "continent": "Europe", "first_year": "1996"}, {"country": "Equatorial Guinea", "ISO": "GNQ", "IOC": "GEQ", "continent": "Africa", "first_year": "1984"}, {"country": "Germany", "ISO": "DEU", "IOC": "GER", "continent": "Europe", "first_year": "1896"}, {"country": "Ghana", "ISO": "GHA", "IOC": "GHA", "continent": "Africa", "first_year": "1952"}, {"country": "Greece", "ISO": "GRC", "IOC": "GRE", "continent": "Europe", "first_year": "1896"}, {"country": "Grenada", "ISO": "GRD", "IOC": "GRN", "continent": "North America", "first_year": "1984"}, {"country": "Guatemala", "ISO": "GTM", "IOC": "GUA", "continent": "North America", "first_year": "1952"}, {"country": "Guinea", "ISO": "GIN", "IOC": "GUI", "continent": "Africa", "first_year": "1968"}, {"country": "Guam", "ISO": "GUM", "IOC": "GUM", "continent": "Oceania", "first_year": "1988"}, {"country": "Guyana", "ISO": "GUY", "IOC": "GUY", "continent": "South America", "first_year": "1948"}, {"country": "Haiti", "ISO": "HTI", "IOC": "HAI", "continent": "North America", "first_year": "1924"}, {"country": "Hong Kong", "ISO": "HKG", "IOC": "HKG", "continent": "Asia", "first_year": "1952"}, {"country": "Honduras", "ISO": "HND", "IOC": "HON", "continent": "North America", "first_year": "1968"}, {"country": "Hungary", "ISO": "HUN", "IOC": "HUN", "continent": "Europe", "first_year": "1896"}, {"country": "Indonesia", "ISO": "IDN", "IOC": "INA", "continent": "Asia", "first_year": "1952"}, {"country": "India", "ISO": "IND", "IOC": "IND", "continent": "Asia", "first_year": "1900"}, {"country": "Independent Olympic Participants", "ISO": "missing", "IOC": "IOP", "continent": "missing", "first_year": "1992"}, {"country": "Iran", "ISO": "IRN", "IOC": "IRI", "continent": "Asia", "first_year": "1948"}, {"country": "Ireland", "ISO": "IRL", "IOC": "IRL", "continent": "Europe", "first_year": "1924"}, {"country": "Iraq", "ISO": "IRQ", "IOC": "IRQ", "continent": "Asia", "first_year": "1948"}, {"country": "Iceland", "ISO": "ISL", "IOC": "ISL", "continent": "Europe", "first_year": "1912"}, {"country": "Israel", "ISO": "ISR", "IOC": "ISR", "continent": "Asia", "first_year": "1952"}, {"country": "Virgin Islands", "ISO": "VIR", "IOC": "ISV", "continent": "North America", "first_year": "1968"}, {"country": "Italy", "ISO": "ITA", "IOC": "ITA", "continent": "Europe", "first_year": "1896"}, {"country": "British Virgin Islands", "ISO": "VGB", "IOC": "IVB", "continent": "North America", "first_year": "1984"}, {"country": "Jamaica", "ISO": "JAM", "IOC": "JAM", "continent": "North America", "first_year": "1948"}, {"country": "Jordan", "ISO": "JOR", "IOC": "JOR", "continent": "Asia", "first_year": "1980"}, {"country": "Japan", "ISO": "JPN", "IOC": "JPN", "continent": "Asia", "first_year": "1912"}, {"country": "Kazakhstan", "ISO": "KAZ", "IOC": "KAZ", "continent": "Europe", "first_year": "1996"}, {"country": "Kenya", "ISO": "KEN", "IOC": "KEN", "continent": "Africa", "first_year": "1956"}, {"country": "Kyrgyzstan", "ISO": "KGZ", "IOC": "KGZ", "continent": "Asia", "first_year": "1996"}, {"country": "Kiribati", "ISO": "KIR", "IOC": "KIR", "continent": "Oceania", "first_year": "2004"}, {"country": "South Korea", "ISO": "KOR", "IOC": "KOR", "continent": "Asia", "first_year": "1948"}, {"country": "Kosovo", "ISO": "[13]", "IOC": "KOS", "continent": "missing", "first_year": "2016"}, {"country": "Saudi Arabia", "ISO": "SAU", "IOC": "KSA", "continent": "Asia", "first_year": "1972"}, {"country": "Kuwait", "ISO": "KWT", "IOC": "KUW", "continent": "Asia", "first_year": "1968"}, {"country": "Laos", "ISO": "LAO", "IOC": "LAO", "continent": "Asia", "first_year": "1980"}, {"country": "Latvia", "ISO": "LVA", "IOC": "LAT", "continent": "Europe", "first_year": "1924"}, {"country": "Libya", "ISO": "LBY", "IOC": "LBA", "continent": "Africa", "first_year": "1968"}, {"country": "Lebanon", "ISO": "LBN", "IOC": "LBN", "continent": "Asia", "first_year": "1948"}, {"country": "Liberia", "ISO": "LBR", "IOC": "LBR", "continent": "Africa", "first_year": "1956"}, {"country": "Saint Lucia", "ISO": "LCA", "IOC": "LCA", "continent": "North America", "first_year": "1996"}, {"country": "Lesotho", "ISO": "LSO", "IOC": "LES", "continent": "Africa", "first_year": "1972"}, {"country": "Liechtenstein", "ISO": "LIE", "IOC": "LIE", "continent": "Europe", "first_year": "1936"}, {"country": "Lithuania", "ISO": "LTU", "IOC": "LTU", "continent": "Europe", "first_year": "1924"}, {"country": "Luxembourg", "ISO": "LUX", "IOC": "LUX", "continent": "Europe", "first_year": "1912"}, {"country": "Madagascar", "ISO": "MDG", "IOC": "MAD", "continent": "Africa", "first_year": "1964"}, {"country": "Malaya", "ISO": "missing", "IOC": "MAL", "continent": "missing", "first_year": "1956"}, {"country": "Morocco", "ISO": "MAR", "IOC": "MAR", "continent": "Africa", "first_year": "1960"}, {"country": "Malaysia", "ISO": "MYS", "IOC": "MAS", "continent": "Asia", "first_year": "1964"}, {"country": "Malawi", "ISO": "MWI", "IOC": "MAW", "continent": "Africa", "first_year": "1972"}, {"country": "Moldova", "ISO": "MDA", "IOC": "MDA", "continent": "Europe", "first_year": "1996"}, {"country": "Maldives", "ISO": "MDV", "IOC": "MDV", "continent": "Asia", "first_year": "1988"}, {"country": "Mexico", "ISO": "MEX", "IOC": "MEX", "continent": "North America", "first_year": "1900"}, {"country": "Mongolia", "ISO": "MNG", "IOC": "MGL", "continent": "Asia", "first_year": "1964"}, {"country": "Marshall Islands", "ISO": "MHL", "IOC": "MHL", "continent": "Oceania", "first_year": "2008"}, {"country": "North Macedonia", "ISO": "MKD", "IOC": "MKD", "continent": "Europe", "first_year": "1996"}, {"country": "Mali", "ISO": "MLI", "IOC": "MLI", "continent": "Africa", "first_year": "1964"}, {"country": "Malta", "ISO": "MLT", "IOC": "MLT", "continent": "Europe", "first_year": "1928"}, {"country": "Montenegro", "ISO": "MNE", "IOC": "MNE", "continent": "Europe", "first_year": "2008"}, {"country": "Monaco", "ISO": "MCO", "IOC": "MON", "continent": "Europe", "first_year": "1920"}, {"country": "Mozambique", "ISO": "MOZ", "IOC": "MOZ", "continent": "Africa", "first_year": "1980"}, {"country": "Mauritius", "ISO": "MUS", "IOC": "MRI", "continent": "Africa", "first_year": "1984"}, {"country": "Mauritania", "ISO": "MRT", "IOC": "MTN", "continent": "Africa", "first_year": "1984"}, {"country": "Myanmar", "ISO": "MMR", "IOC": "MYA", "continent": "Asia", "first_year": "1948"}, {"country": "Namibia", "ISO": "NAM", "IOC": "NAM", "continent": "Africa", "first_year": "1992"}, {"country": "North Borneo", "ISO": "missing", "IOC": "NBO", "continent": "missing", "first_year": "1956"}, {"country": "Nicaragua", "ISO": "NIC", "IOC": "NCA", "continent": "North America", "first_year": "1968"}, {"country": "Netherlands", "ISO": "NLD", "IOC": "NED", "continent": "Europe", "first_year": "1900"}, {"country": "Nepal", "ISO": "NPL", "IOC": "NEP", "continent": "Asia", "first_year": "1964"}, {"country": "Nigeria", "ISO": "NGA", "IOC": "NGR", "continent": "Africa", "first_year": "1952"}, {"country": "Niger", "ISO": "NER", "IOC": "NIG", "continent": "Africa", "first_year": "1964"}, {"country": "Norway", "ISO": "NOR", "IOC": "NOR", "continent": "Europe", "first_year": "1900"}, {"country": "Nauru", "ISO": "NRU", "IOC": "NRU", "continent": "Oceania", "first_year": "1996"}, {"country": "New Zealand", "ISO": "NZL", "IOC": "NZL", "continent": "Oceania", "first_year": "1920"}, {"country": "Oman", "ISO": "OMN", "IOC": "OMA", "continent": "Asia", "first_year": "1984"}, {"country": "Pakistan", "ISO": "PAK", "IOC": "PAK", "continent": "Asia", "first_year": "1948"}, {"country": "Panama", "ISO": "PAN", "IOC": "PAN", "continent": "North America", "first_year": "1928"}, {"country": "Paraguay", "ISO": "PRY", "IOC": "PAR", "continent": "South America", "first_year": "1968"}, {"country": "Peru", "ISO": "PER", "IOC": "PER", "continent": "South America", "first_year": "1936"}, {"country": "Philippines", "ISO": "PHL", "IOC": "PHI", "continent": "Asia", "first_year": "1924"}, {"country": "Palestine", "ISO": "PSE", "IOC": "PLE", "continent": "Asia", "first_year": "1996"}, {"country": "Palau", "ISO": "PLW", "IOC": "PLW", "continent": "Oceania", "first_year": "2000"}, {"country": "Papua New Guinea", "ISO": "PNG", "IOC": "PNG", "continent": "Oceania", "first_year": "1976"}, {"country": "Poland", "ISO": "POL", "IOC": "POL", "continent": "Europe", "first_year": "1924"}, {"country": "Portugal", "ISO": "PRT", "IOC": "POR", "continent": "Europe", "first_year": "1912"}, {"country": "North Korea", "ISO": "PRK", "IOC": "PRK", "continent": "Asia", "first_year": "1972"}, {"country": "Puerto Rico", "ISO": "PRI", "IOC": "PUR", "continent": "North America", "first_year": "1948"}, {"country": "Qatar", "ISO": "QAT", "IOC": "QAT", "continent": "Asia", "first_year": "1984"}, {"country": "Republic of China", "ISO": "missing", "IOC": "ROC", "continent": "missing", "first_year": "1932"}, {"country": "Romania", "ISO": "ROU", "IOC": "ROU", "continent": "Europe", "first_year": "1900"}, {"country": "South Africa", "ISO": "ZAF", "IOC": "RSA", "continent": "Africa", "first_year": "1904"}, {"country": "Russian Empire", "ISO": "missing", "IOC": "RU1", "continent": "missing", "first_year": "1900"}, {"country": "Russia", "ISO": "RUS", "IOC": "RUS", "continent": "Europe", "first_year": "1996"}, {"country": "Rwanda", "ISO": "RWA", "IOC": "RWA", "continent": "Africa", "first_year": "1984"}, {"country": "Saar", "ISO": "missing", "IOC": "SAA", "continent": "missing", "first_year": "1952"}, {"country": "Samoa", "ISO": "WSM", "IOC": "SAM", "continent": "Oceania", "first_year": "1984"}, {"country": "Serbia and Montenegro", "ISO": "missing", "IOC": "SCG", "continent": "missing", "first_year": "1996"}, {"country": "Senegal", "ISO": "SEN", "IOC": "SEN", "continent": "Africa", "first_year": "1964"}, {"country": "Seychelles", "ISO": "SYC", "IOC": "SEY", "continent": "Africa", "first_year": "1980"}, {"country": "Singapore", "ISO": "SGP", "IOC": "SGP", "continent": "Asia", "first_year": "1948"}, {"country": "Saint Kitts and Nevis", "ISO": "KNA", "IOC": "SKN", "continent": "North America", "first_year": "1996"}, {"country": "Sierra Leone", "ISO": "SLE", "IOC": "SLE", "continent": "Africa", "first_year": "1968"}, {"country": "Slovenia", "ISO": "SVN", "IOC": "SLO", "continent": "Europe", "first_year": "1992"}, {"country": "San Marino", "ISO": "SMR", "IOC": "SMR", "continent": "Europe", "first_year": "1960"}, {"country": "Solomon Islands", "ISO": "SLB", "IOC": "SOL", "continent": "Oceania", "first_year": "1984"}, {"country": "Somalia", "ISO": "SOM", "IOC": "SOM", "continent": "Africa", "first_year": "1972"}, {"country": "Serbia", "ISO": "SRB", "IOC": "SRB", "continent": "Europe", "first_year": "1912"}, {"country": "Sri Lanka", "ISO": "LKA", "IOC": "SRI", "continent": "Asia", "first_year": "1948"}, {"country": "South Sudan", "ISO": "SSD", "IOC": "SSD", "continent": "Africa", "first_year": "2016"}, {"country": "S\u00e3o Tom\u00e9 and Pr\u00edncipe", "ISO": "STP", "IOC": "STP", "continent": "Africa", "first_year": "1996"}, {"country": "Sudan", "ISO": "SDN", "IOC": "SUD", "continent": "Africa", "first_year": "1960"}, {"country": "Switzerland", "ISO": "CHE", "IOC": "SUI", "continent": "Europe", "first_year": "1896"}, {"country": "Suriname", "ISO": "SUR", "IOC": "SUR", "continent": "South America", "first_year": "1968"}, {"country": "Slovakia", "ISO": "SVK", "IOC": "SVK", "continent": "Europe", "first_year": "1996"}, {"country": "Sweden", "ISO": "SWE", "IOC": "SWE", "continent": "Europe", "first_year": "1896"}, {"country": "Swaziland", "ISO": "SWZ", "IOC": "SWZ", "continent": "Africa", "first_year": "1972"}, {"country": "Syria", "ISO": "SYR", "IOC": "SYR", "continent": "Asia", "first_year": "1948"}, {"country": "Tanzania", "ISO": "TZA", "IOC": "TAN", "continent": "Africa", "first_year": "1964"}, {"country": "Czechoslovakia", "ISO": "missing", "IOC": "TCH", "continent": "missing", "first_year": "1920"}, {"country": "Tonga", "ISO": "TON", "IOC": "TGA", "continent": "Oceania", "first_year": "1984"}, {"country": "Thailand", "ISO": "THA", "IOC": "THA", "continent": "Asia", "first_year": "1952"}, {"country": "Tajikistan", "ISO": "TJK", "IOC": "TJK", "continent": "Asia", "first_year": "1996"}, {"country": "Turkmenistan", "ISO": "TKM", "IOC": "TKM", "continent": "Asia", "first_year": "1996"}, {"country": "East Timor", "ISO": "TLS", "IOC": "TLS", "continent": "Asia", "first_year": "2004"}, {"country": "Togo", "ISO": "TGO", "IOC": "TOG", "continent": "Africa", "first_year": "1972"}, {"country": "Chinese Taipei", "ISO": "TWN", "IOC": "TPE", "continent": "Asia", "first_year": "1984"}, {"country": "Trinidad and Tobago", "ISO": "TTO", "IOC": "TTO", "continent": "North America", "first_year": "1948"}, {"country": "Tunisia", "ISO": "TUN", "IOC": "TUN", "continent": "Africa", "first_year": "1960"}, {"country": "Turkey", "ISO": "TUR", "IOC": "TUR", "continent": "Europe", "first_year": "1908"}, {"country": "Tuvalu", "ISO": "TUV", "IOC": "TUV", "continent": "Oceania", "first_year": "2008"}, {"country": "United Arab Emirates", "ISO": "ARE", "IOC": "UAE", "continent": "Asia", "first_year": "1984"}, {"country": "Uganda", "ISO": "UGA", "IOC": "UGA", "continent": "Africa", "first_year": "1956"}, {"country": "Ukraine", "ISO": "UKR", "IOC": "UKR", "continent": "Europe", "first_year": "1996"}, {"country": "Soviet Union", "ISO": "missing", "IOC": "URS", "continent": "missing", "first_year": "1952"}, {"country": "Uruguay", "ISO": "URY", "IOC": "URU", "continent": "South America", "first_year": "1924"}, {"country": "United States", "ISO": "USA", "IOC": "USA", "continent": "North America", "first_year": "1896"}, {"country": "Uzbekistan", "ISO": "UZB", "IOC": "UZB", "continent": "Asia", "first_year": "1996"}, {"country": "Vanuatu", "ISO": "VUT", "IOC": "VAN", "continent": "Oceania", "first_year": "1988"}, {"country": "Venezuela", "ISO": "VEN", "IOC": "VEN", "continent": "South America", "first_year": "1948"}, {"country": "Vietnam", "ISO": "VNM", "IOC": "VIE", "continent": "Asia", "first_year": "1952"}, {"country": "Saint Vincent and the Grenadines", "ISO": "VCT", "IOC": "VIN", "continent": "North America", "first_year": "1988"}, {"country": "North Yemen", "ISO": "missing", "IOC": "YAR", "continent": "missing", "first_year": "1984"}, {"country": "Yemen", "ISO": "YEM", "IOC": "YEM", "continent": "Asia", "first_year": "1992"}, {"country": "South Yemen", "ISO": "missing", "IOC": "YMD", "continent": "missing", "first_year": "1988"}, {"country": "Yugoslavia", "ISO": "missing", "IOC": "YUG", "continent": "missing", "first_year": "1920"}, {"country": "Zambia", "ISO": "ZMB", "IOC": "ZAM", "continent": "Africa", "first_year": "1964"}, {"country": "Zimbabwe", "ISO": "ZWE", "IOC": "ZIM", "continent": "Africa", "first_year": "1928"}]
+[
+  {
+    "country": "Afghanistan",
+    "ISO": "AFG",
+    "IOC": "AFG",
+    "continent": "Asia",
+    "first_year": "1936"
+  },
+  {
+    "country": "Netherlands Antilles",
+    "ISO": "missing",
+    "IOC": "AHO",
+    "continent": "missing",
+    "first_year": "1952"
+  },
+  {
+    "country": "Albania",
+    "ISO": "ALB",
+    "IOC": "ALB",
+    "continent": "Europe",
+    "first_year": "1972"
+  },
+  {
+    "country": "Algeria",
+    "ISO": "DZA",
+    "IOC": "ALG",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Andorra",
+    "ISO": "AND",
+    "IOC": "AND",
+    "continent": "Europe",
+    "first_year": "1976"
+  },
+  {
+    "country": "Angola",
+    "ISO": "AGO",
+    "IOC": "ANG",
+    "continent": "Africa",
+    "first_year": "1980"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "ISO": "ATG",
+    "IOC": "ANT",
+    "continent": "North America",
+    "first_year": "1976"
+  },
+  {
+    "country": "Australasia",
+    "ISO": "missing",
+    "IOC": "ANZ",
+    "continent": "missing",
+    "first_year": "1908"
+  },
+  {
+    "country": "Argentina",
+    "ISO": "ARG",
+    "IOC": "ARG",
+    "continent": "South America",
+    "first_year": "1900"
+  },
+  {
+    "country": "Armenia",
+    "ISO": "ARM",
+    "IOC": "ARM",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Aruba",
+    "ISO": "ABW",
+    "IOC": "ARU",
+    "continent": "North America",
+    "first_year": "1988"
+  },
+  {
+    "country": "American Samoa",
+    "ISO": "ASM",
+    "IOC": "ASA",
+    "continent": "Oceania",
+    "first_year": "1988"
+  },
+  {
+    "country": "Australia",
+    "ISO": "AUS",
+    "IOC": "AUS",
+    "continent": "Oceania",
+    "first_year": "1896"
+  },
+  {
+    "country": "Austria",
+    "ISO": "AUT",
+    "IOC": "AUT",
+    "continent": "Europe",
+    "first_year": "1896"
+  },
+  {
+    "country": "Azerbaijan",
+    "ISO": "AZE",
+    "IOC": "AZE",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Bahamas",
+    "ISO": "BHS",
+    "IOC": "BAH",
+    "continent": "North America",
+    "first_year": "1952"
+  },
+  {
+    "country": "Bangladesh",
+    "ISO": "BGD",
+    "IOC": "BAN",
+    "continent": "Asia",
+    "first_year": "1984"
+  },
+  {
+    "country": "Barbados",
+    "ISO": "BRB",
+    "IOC": "BAR",
+    "continent": "North America",
+    "first_year": "1968"
+  },
+  {
+    "country": "Burundi",
+    "ISO": "BDI",
+    "IOC": "BDI",
+    "continent": "Africa",
+    "first_year": "1996"
+  },
+  {
+    "country": "Belgium",
+    "ISO": "BEL",
+    "IOC": "BEL",
+    "continent": "Europe",
+    "first_year": "1900"
+  },
+  {
+    "country": "Benin",
+    "ISO": "BEN",
+    "IOC": "BEN",
+    "continent": "Africa",
+    "first_year": "1972"
+  },
+  {
+    "country": "Bermuda",
+    "ISO": "BMU",
+    "IOC": "BER",
+    "continent": "North America",
+    "first_year": "1936"
+  },
+  {
+    "country": "Bhutan",
+    "ISO": "BTN",
+    "IOC": "BHU",
+    "continent": "Asia",
+    "first_year": "1984"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "ISO": "BIH",
+    "IOC": "BIH",
+    "continent": "Europe",
+    "first_year": "1992"
+  },
+  {
+    "country": "Belize",
+    "ISO": "BLZ",
+    "IOC": "BIZ",
+    "continent": "North America",
+    "first_year": "1968"
+  },
+  {
+    "country": "Belarus",
+    "ISO": "BLR",
+    "IOC": "BLR",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Bohemia",
+    "ISO": "missing",
+    "IOC": "BOH",
+    "continent": "missing",
+    "first_year": "1900"
+  },
+  {
+    "country": "Bolivia",
+    "ISO": "BOL",
+    "IOC": "BOL",
+    "continent": "South America",
+    "first_year": "1936"
+  },
+  {
+    "country": "Botswana",
+    "ISO": "BWA",
+    "IOC": "BOT",
+    "continent": "Africa",
+    "first_year": "1980"
+  },
+  {
+    "country": "Brazil",
+    "ISO": "BRA",
+    "IOC": "BRA",
+    "continent": "South America",
+    "first_year": "1920"
+  },
+  {
+    "country": "Bahrain",
+    "ISO": "BHR",
+    "IOC": "BRN",
+    "continent": "Asia",
+    "first_year": "1984"
+  },
+  {
+    "country": "Brunei",
+    "ISO": "BRN",
+    "IOC": "BRU",
+    "continent": "Asia",
+    "first_year": "1996"
+  },
+  {
+    "country": "Bulgaria",
+    "ISO": "BGR",
+    "IOC": "BUL",
+    "continent": "Europe",
+    "first_year": "1924"
+  },
+  {
+    "country": "Burkina Faso",
+    "ISO": "BFA",
+    "IOC": "BUR",
+    "continent": "Africa",
+    "first_year": "1972"
+  },
+  {
+    "country": "British West Indies",
+    "ISO": "missing",
+    "IOC": "BWI",
+    "continent": "missing",
+    "first_year": "1960"
+  },
+  {
+    "country": "Central African Republic",
+    "ISO": "CAF",
+    "IOC": "CAF",
+    "continent": "Africa",
+    "first_year": "1968"
+  },
+  {
+    "country": "Cambodia",
+    "ISO": "KHM",
+    "IOC": "CAM",
+    "continent": "Asia",
+    "first_year": "1964"
+  },
+  {
+    "country": "Canada",
+    "ISO": "CAN",
+    "IOC": "CAN",
+    "continent": "North America",
+    "first_year": "1900"
+  },
+  {
+    "country": "Cayman Islands",
+    "ISO": "CYM",
+    "IOC": "CAY",
+    "continent": "North America",
+    "first_year": "1976"
+  },
+  {
+    "country": "Republic of the Congo",
+    "ISO": "COG",
+    "IOC": "CGO",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Chad",
+    "ISO": "TCD",
+    "IOC": "CHA",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Chile",
+    "ISO": "CHL",
+    "IOC": "CHI",
+    "continent": "South America",
+    "first_year": "1912"
+  },
+  {
+    "country": "China",
+    "ISO": "CHN",
+    "IOC": "CHN",
+    "continent": "Asia",
+    "first_year": "1952"
+  },
+  {
+    "country": "Ivory Coast",
+    "ISO": "CIV",
+    "IOC": "CIV",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Cameroon",
+    "ISO": "CMR",
+    "IOC": "CMR",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Democratic Republic of the Congo",
+    "ISO": "COD",
+    "IOC": "COD",
+    "continent": "Africa",
+    "first_year": "1968"
+  },
+  {
+    "country": "Cook Islands",
+    "ISO": "COK",
+    "IOC": "COK",
+    "continent": "Oceania",
+    "first_year": "1988"
+  },
+  {
+    "country": "Colombia",
+    "ISO": "COL",
+    "IOC": "COL",
+    "continent": "South America",
+    "first_year": "1932"
+  },
+  {
+    "country": "Comoros",
+    "ISO": "COM",
+    "IOC": "COM",
+    "continent": "Africa",
+    "first_year": "1996"
+  },
+  {
+    "country": "Cape Verde",
+    "ISO": "CPV",
+    "IOC": "CPV",
+    "continent": "Africa",
+    "first_year": "1996"
+  },
+  {
+    "country": "Costa Rica",
+    "ISO": "CRI",
+    "IOC": "CRC",
+    "continent": "North America",
+    "first_year": "1936"
+  },
+  {
+    "country": "Croatia",
+    "ISO": "HRV",
+    "IOC": "CRO",
+    "continent": "Europe",
+    "first_year": "1992"
+  },
+  {
+    "country": "Cuba",
+    "ISO": "CUB",
+    "IOC": "CUB",
+    "continent": "North America",
+    "first_year": "1900"
+  },
+  {
+    "country": "Cyprus",
+    "ISO": "CYP",
+    "IOC": "CYP",
+    "continent": "Europe",
+    "first_year": "1980"
+  },
+  {
+    "country": "Czech Republic",
+    "ISO": "CZE",
+    "IOC": "CZE",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Denmark",
+    "ISO": "DNK",
+    "IOC": "DEN",
+    "continent": "Europe",
+    "first_year": "1896"
+  },
+  {
+    "country": "Djibouti",
+    "ISO": "DJI",
+    "IOC": "DJI",
+    "continent": "Africa",
+    "first_year": "1984"
+  },
+  {
+    "country": "Dominica",
+    "ISO": "DMA",
+    "IOC": "DMA",
+    "continent": "North America",
+    "first_year": "1996"
+  },
+  {
+    "country": "Dominican Republic",
+    "ISO": "DOM",
+    "IOC": "DOM",
+    "continent": "North America",
+    "first_year": "1964"
+  },
+  {
+    "country": "Ecuador",
+    "ISO": "ECU",
+    "IOC": "ECU",
+    "continent": "South America",
+    "first_year": "1924"
+  },
+  {
+    "country": "Egypt",
+    "ISO": "EGY",
+    "IOC": "EGY",
+    "continent": "Africa",
+    "first_year": "1912"
+  },
+  {
+    "country": "Eritrea",
+    "ISO": "ERI",
+    "IOC": "ERI",
+    "continent": "Africa",
+    "first_year": "2000"
+  },
+  {
+    "country": "El Salvador",
+    "ISO": "SLV",
+    "IOC": "ESA",
+    "continent": "North America",
+    "first_year": "1968"
+  },
+  {
+    "country": "Spain",
+    "ISO": "ESP",
+    "IOC": "ESP",
+    "continent": "Europe",
+    "first_year": "1900"
+  },
+  {
+    "country": "Estonia",
+    "ISO": "EST",
+    "IOC": "EST",
+    "continent": "Europe",
+    "first_year": "1920"
+  },
+  {
+    "country": "Ethiopia",
+    "ISO": "ETH",
+    "IOC": "ETH",
+    "continent": "Africa",
+    "first_year": "1956"
+  },
+  {
+    "country": "United Team of Germany",
+    "ISO": "missing",
+    "IOC": "EUA",
+    "continent": "missing",
+    "first_year": "1956"
+  },
+  {
+    "country": "Unified Team",
+    "ISO": "missing",
+    "IOC": "EUN",
+    "continent": "missing",
+    "first_year": "1992"
+  },
+  {
+    "country": "Fiji",
+    "ISO": "FJI",
+    "IOC": "FIJ",
+    "continent": "Oceania",
+    "first_year": "1956"
+  },
+  {
+    "country": "Finland",
+    "ISO": "FIN",
+    "IOC": "FIN",
+    "continent": "Europe",
+    "first_year": "1908"
+  },
+  {
+    "country": "France",
+    "ISO": "FRA",
+    "IOC": "FRA",
+    "continent": "Europe",
+    "first_year": "1896"
+  },
+  {
+    "country": "West Germany",
+    "ISO": "missing",
+    "IOC": "FRG",
+    "continent": "missing",
+    "first_year": "1968"
+  },
+  {
+    "country": "Federated States of Micronesia",
+    "ISO": "FSM",
+    "IOC": "FSM",
+    "continent": "Oceania",
+    "first_year": "2000"
+  },
+  {
+    "country": "Gabon",
+    "ISO": "GAB",
+    "IOC": "GAB",
+    "continent": "Africa",
+    "first_year": "1972"
+  },
+  {
+    "country": "The Gambia",
+    "ISO": "GMB",
+    "IOC": "GAM",
+    "continent": "Africa",
+    "first_year": "1984"
+  },
+  {
+    "country": "Great Britain",
+    "ISO": "GBR",
+    "IOC": "GBR",
+    "continent": "Europe",
+    "first_year": "1896"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "ISO": "GNB",
+    "IOC": "GBS",
+    "continent": "Africa",
+    "first_year": "1996"
+  },
+  {
+    "country": "East Germany",
+    "ISO": "missing",
+    "IOC": "GDR",
+    "continent": "missing",
+    "first_year": "1968"
+  },
+  {
+    "country": "Georgia",
+    "ISO": "GEO",
+    "IOC": "GEO",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "ISO": "GNQ",
+    "IOC": "GEQ",
+    "continent": "Africa",
+    "first_year": "1984"
+  },
+  {
+    "country": "Germany",
+    "ISO": "DEU",
+    "IOC": "GER",
+    "continent": "Europe",
+    "first_year": "1896"
+  },
+  {
+    "country": "Ghana",
+    "ISO": "GHA",
+    "IOC": "GHA",
+    "continent": "Africa",
+    "first_year": "1952"
+  },
+  {
+    "country": "Greece",
+    "ISO": "GRC",
+    "IOC": "GRE",
+    "continent": "Europe",
+    "first_year": "1896"
+  },
+  {
+    "country": "Grenada",
+    "ISO": "GRD",
+    "IOC": "GRN",
+    "continent": "North America",
+    "first_year": "1984"
+  },
+  {
+    "country": "Guatemala",
+    "ISO": "GTM",
+    "IOC": "GUA",
+    "continent": "North America",
+    "first_year": "1952"
+  },
+  {
+    "country": "Guinea",
+    "ISO": "GIN",
+    "IOC": "GUI",
+    "continent": "Africa",
+    "first_year": "1968"
+  },
+  {
+    "country": "Guam",
+    "ISO": "GUM",
+    "IOC": "GUM",
+    "continent": "Oceania",
+    "first_year": "1988"
+  },
+  {
+    "country": "Guyana",
+    "ISO": "GUY",
+    "IOC": "GUY",
+    "continent": "South America",
+    "first_year": "1948"
+  },
+  {
+    "country": "Haiti",
+    "ISO": "HTI",
+    "IOC": "HAI",
+    "continent": "North America",
+    "first_year": "1924"
+  },
+  {
+    "country": "Hong Kong",
+    "ISO": "HKG",
+    "IOC": "HKG",
+    "continent": "Asia",
+    "first_year": "1952"
+  },
+  {
+    "country": "Honduras",
+    "ISO": "HND",
+    "IOC": "HON",
+    "continent": "North America",
+    "first_year": "1968"
+  },
+  {
+    "country": "Hungary",
+    "ISO": "HUN",
+    "IOC": "HUN",
+    "continent": "Europe",
+    "first_year": "1896"
+  },
+  {
+    "country": "Indonesia",
+    "ISO": "IDN",
+    "IOC": "INA",
+    "continent": "Asia",
+    "first_year": "1952"
+  },
+  {
+    "country": "India",
+    "ISO": "IND",
+    "IOC": "IND",
+    "continent": "Asia",
+    "first_year": "1900"
+  },
+  {
+    "country": "Independent Olympic Participants",
+    "ISO": "missing",
+    "IOC": "IOP",
+    "continent": "missing",
+    "first_year": "1992"
+  },
+  {
+    "country": "Iran",
+    "ISO": "IRN",
+    "IOC": "IRI",
+    "continent": "Asia",
+    "first_year": "1948"
+  },
+  {
+    "country": "Ireland",
+    "ISO": "IRL",
+    "IOC": "IRL",
+    "continent": "Europe",
+    "first_year": "1924"
+  },
+  {
+    "country": "Iraq",
+    "ISO": "IRQ",
+    "IOC": "IRQ",
+    "continent": "Asia",
+    "first_year": "1948"
+  },
+  {
+    "country": "Iceland",
+    "ISO": "ISL",
+    "IOC": "ISL",
+    "continent": "Europe",
+    "first_year": "1912"
+  },
+  {
+    "country": "Israel",
+    "ISO": "ISR",
+    "IOC": "ISR",
+    "continent": "Asia",
+    "first_year": "1952"
+  },
+  {
+    "country": "Virgin Islands",
+    "ISO": "VIR",
+    "IOC": "ISV",
+    "continent": "North America",
+    "first_year": "1968"
+  },
+  {
+    "country": "Italy",
+    "ISO": "ITA",
+    "IOC": "ITA",
+    "continent": "Europe",
+    "first_year": "1896"
+  },
+  {
+    "country": "British Virgin Islands",
+    "ISO": "VGB",
+    "IOC": "IVB",
+    "continent": "North America",
+    "first_year": "1984"
+  },
+  {
+    "country": "Jamaica",
+    "ISO": "JAM",
+    "IOC": "JAM",
+    "continent": "North America",
+    "first_year": "1948"
+  },
+  {
+    "country": "Jordan",
+    "ISO": "JOR",
+    "IOC": "JOR",
+    "continent": "Asia",
+    "first_year": "1980"
+  },
+  {
+    "country": "Japan",
+    "ISO": "JPN",
+    "IOC": "JPN",
+    "continent": "Asia",
+    "first_year": "1912"
+  },
+  {
+    "country": "Kazakhstan",
+    "ISO": "KAZ",
+    "IOC": "KAZ",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Kenya",
+    "ISO": "KEN",
+    "IOC": "KEN",
+    "continent": "Africa",
+    "first_year": "1956"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "ISO": "KGZ",
+    "IOC": "KGZ",
+    "continent": "Asia",
+    "first_year": "1996"
+  },
+  {
+    "country": "Kiribati",
+    "ISO": "KIR",
+    "IOC": "KIR",
+    "continent": "Oceania",
+    "first_year": "2004"
+  },
+  {
+    "country": "South Korea",
+    "ISO": "KOR",
+    "IOC": "KOR",
+    "continent": "Asia",
+    "first_year": "1948"
+  },
+  {
+    "country": "Kosovo",
+    "ISO": "[13]",
+    "IOC": "KOS",
+    "continent": "Europe",
+    "first_year": "2016"
+  },
+  {
+    "country": "Saudi Arabia",
+    "ISO": "SAU",
+    "IOC": "KSA",
+    "continent": "Asia",
+    "first_year": "1972"
+  },
+  {
+    "country": "Kuwait",
+    "ISO": "KWT",
+    "IOC": "KUW",
+    "continent": "Asia",
+    "first_year": "1968"
+  },
+  {
+    "country": "Laos",
+    "ISO": "LAO",
+    "IOC": "LAO",
+    "continent": "Asia",
+    "first_year": "1980"
+  },
+  {
+    "country": "Latvia",
+    "ISO": "LVA",
+    "IOC": "LAT",
+    "continent": "Europe",
+    "first_year": "1924"
+  },
+  {
+    "country": "Libya",
+    "ISO": "LBY",
+    "IOC": "LBA",
+    "continent": "Africa",
+    "first_year": "1968"
+  },
+  {
+    "country": "Lebanon",
+    "ISO": "LBN",
+    "IOC": "LBN",
+    "continent": "Asia",
+    "first_year": "1948"
+  },
+  {
+    "country": "Liberia",
+    "ISO": "LBR",
+    "IOC": "LBR",
+    "continent": "Africa",
+    "first_year": "1956"
+  },
+  {
+    "country": "Saint Lucia",
+    "ISO": "LCA",
+    "IOC": "LCA",
+    "continent": "North America",
+    "first_year": "1996"
+  },
+  {
+    "country": "Lesotho",
+    "ISO": "LSO",
+    "IOC": "LES",
+    "continent": "Africa",
+    "first_year": "1972"
+  },
+  {
+    "country": "Liechtenstein",
+    "ISO": "LIE",
+    "IOC": "LIE",
+    "continent": "Europe",
+    "first_year": "1936"
+  },
+  {
+    "country": "Lithuania",
+    "ISO": "LTU",
+    "IOC": "LTU",
+    "continent": "Europe",
+    "first_year": "1924"
+  },
+  {
+    "country": "Luxembourg",
+    "ISO": "LUX",
+    "IOC": "LUX",
+    "continent": "Europe",
+    "first_year": "1912"
+  },
+  {
+    "country": "Madagascar",
+    "ISO": "MDG",
+    "IOC": "MAD",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Malaya",
+    "ISO": "missing",
+    "IOC": "MAL",
+    "continent": "missing",
+    "first_year": "1956"
+  },
+  {
+    "country": "Morocco",
+    "ISO": "MAR",
+    "IOC": "MAR",
+    "continent": "Africa",
+    "first_year": "1960"
+  },
+  {
+    "country": "Malaysia",
+    "ISO": "MYS",
+    "IOC": "MAS",
+    "continent": "Asia",
+    "first_year": "1964"
+  },
+  {
+    "country": "Malawi",
+    "ISO": "MWI",
+    "IOC": "MAW",
+    "continent": "Africa",
+    "first_year": "1972"
+  },
+  {
+    "country": "Moldova",
+    "ISO": "MDA",
+    "IOC": "MDA",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Maldives",
+    "ISO": "MDV",
+    "IOC": "MDV",
+    "continent": "Asia",
+    "first_year": "1988"
+  },
+  {
+    "country": "Mexico",
+    "ISO": "MEX",
+    "IOC": "MEX",
+    "continent": "North America",
+    "first_year": "1900"
+  },
+  {
+    "country": "Mongolia",
+    "ISO": "MNG",
+    "IOC": "MGL",
+    "continent": "Asia",
+    "first_year": "1964"
+  },
+  {
+    "country": "Marshall Islands",
+    "ISO": "MHL",
+    "IOC": "MHL",
+    "continent": "Oceania",
+    "first_year": "2008"
+  },
+  {
+    "country": "North Macedonia",
+    "ISO": "MKD",
+    "IOC": "MKD",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Mali",
+    "ISO": "MLI",
+    "IOC": "MLI",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Malta",
+    "ISO": "MLT",
+    "IOC": "MLT",
+    "continent": "Europe",
+    "first_year": "1928"
+  },
+  {
+    "country": "Montenegro",
+    "ISO": "MNE",
+    "IOC": "MNE",
+    "continent": "Europe",
+    "first_year": "2008"
+  },
+  {
+    "country": "Monaco",
+    "ISO": "MCO",
+    "IOC": "MON",
+    "continent": "Europe",
+    "first_year": "1920"
+  },
+  {
+    "country": "Mozambique",
+    "ISO": "MOZ",
+    "IOC": "MOZ",
+    "continent": "Africa",
+    "first_year": "1980"
+  },
+  {
+    "country": "Mauritius",
+    "ISO": "MUS",
+    "IOC": "MRI",
+    "continent": "Africa",
+    "first_year": "1984"
+  },
+  {
+    "country": "Mauritania",
+    "ISO": "MRT",
+    "IOC": "MTN",
+    "continent": "Africa",
+    "first_year": "1984"
+  },
+  {
+    "country": "Myanmar",
+    "ISO": "MMR",
+    "IOC": "MYA",
+    "continent": "Asia",
+    "first_year": "1948"
+  },
+  {
+    "country": "Namibia",
+    "ISO": "NAM",
+    "IOC": "NAM",
+    "continent": "Africa",
+    "first_year": "1992"
+  },
+  {
+    "country": "North Borneo",
+    "ISO": "missing",
+    "IOC": "NBO",
+    "continent": "missing",
+    "first_year": "1956"
+  },
+  {
+    "country": "Nicaragua",
+    "ISO": "NIC",
+    "IOC": "NCA",
+    "continent": "North America",
+    "first_year": "1968"
+  },
+  {
+    "country": "Netherlands",
+    "ISO": "NLD",
+    "IOC": "NED",
+    "continent": "Europe",
+    "first_year": "1900"
+  },
+  {
+    "country": "Nepal",
+    "ISO": "NPL",
+    "IOC": "NEP",
+    "continent": "Asia",
+    "first_year": "1964"
+  },
+  {
+    "country": "Nigeria",
+    "ISO": "NGA",
+    "IOC": "NGR",
+    "continent": "Africa",
+    "first_year": "1952"
+  },
+  {
+    "country": "Niger",
+    "ISO": "NER",
+    "IOC": "NIG",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Norway",
+    "ISO": "NOR",
+    "IOC": "NOR",
+    "continent": "Europe",
+    "first_year": "1900"
+  },
+  {
+    "country": "Nauru",
+    "ISO": "NRU",
+    "IOC": "NRU",
+    "continent": "Oceania",
+    "first_year": "1996"
+  },
+  {
+    "country": "New Zealand",
+    "ISO": "NZL",
+    "IOC": "NZL",
+    "continent": "Oceania",
+    "first_year": "1920"
+  },
+  {
+    "country": "Oman",
+    "ISO": "OMN",
+    "IOC": "OMA",
+    "continent": "Asia",
+    "first_year": "1984"
+  },
+  {
+    "country": "Pakistan",
+    "ISO": "PAK",
+    "IOC": "PAK",
+    "continent": "Asia",
+    "first_year": "1948"
+  },
+  {
+    "country": "Panama",
+    "ISO": "PAN",
+    "IOC": "PAN",
+    "continent": "North America",
+    "first_year": "1928"
+  },
+  {
+    "country": "Paraguay",
+    "ISO": "PRY",
+    "IOC": "PAR",
+    "continent": "South America",
+    "first_year": "1968"
+  },
+  {
+    "country": "Peru",
+    "ISO": "PER",
+    "IOC": "PER",
+    "continent": "South America",
+    "first_year": "1936"
+  },
+  {
+    "country": "Philippines",
+    "ISO": "PHL",
+    "IOC": "PHI",
+    "continent": "Asia",
+    "first_year": "1924"
+  },
+  {
+    "country": "Palestine",
+    "ISO": "PSE",
+    "IOC": "PLE",
+    "continent": "Asia",
+    "first_year": "1996"
+  },
+  {
+    "country": "Palau",
+    "ISO": "PLW",
+    "IOC": "PLW",
+    "continent": "Oceania",
+    "first_year": "2000"
+  },
+  {
+    "country": "Papua New Guinea",
+    "ISO": "PNG",
+    "IOC": "PNG",
+    "continent": "Oceania",
+    "first_year": "1976"
+  },
+  {
+    "country": "Poland",
+    "ISO": "POL",
+    "IOC": "POL",
+    "continent": "Europe",
+    "first_year": "1924"
+  },
+  {
+    "country": "Portugal",
+    "ISO": "PRT",
+    "IOC": "POR",
+    "continent": "Europe",
+    "first_year": "1912"
+  },
+  {
+    "country": "North Korea",
+    "ISO": "PRK",
+    "IOC": "PRK",
+    "continent": "Asia",
+    "first_year": "1972"
+  },
+  {
+    "country": "Puerto Rico",
+    "ISO": "PRI",
+    "IOC": "PUR",
+    "continent": "North America",
+    "first_year": "1948"
+  },
+  {
+    "country": "Qatar",
+    "ISO": "QAT",
+    "IOC": "QAT",
+    "continent": "Asia",
+    "first_year": "1984"
+  },
+  {
+    "country": "Republic of China",
+    "ISO": "missing",
+    "IOC": "ROC",
+    "continent": "missing",
+    "first_year": "1932"
+  },
+  {
+    "country": "Romania",
+    "ISO": "ROU",
+    "IOC": "ROU",
+    "continent": "Europe",
+    "first_year": "1900"
+  },
+  {
+    "country": "South Africa",
+    "ISO": "ZAF",
+    "IOC": "RSA",
+    "continent": "Africa",
+    "first_year": "1904"
+  },
+  {
+    "country": "Russian Empire",
+    "ISO": "missing",
+    "IOC": "RU1",
+    "continent": "missing",
+    "first_year": "1900"
+  },
+  {
+    "country": "Russia",
+    "ISO": "RUS",
+    "IOC": "RUS",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Rwanda",
+    "ISO": "RWA",
+    "IOC": "RWA",
+    "continent": "Africa",
+    "first_year": "1984"
+  },
+  {
+    "country": "Saar",
+    "ISO": "missing",
+    "IOC": "SAA",
+    "continent": "missing",
+    "first_year": "1952"
+  },
+  {
+    "country": "Samoa",
+    "ISO": "WSM",
+    "IOC": "SAM",
+    "continent": "Oceania",
+    "first_year": "1984"
+  },
+  {
+    "country": "Serbia and Montenegro",
+    "ISO": "missing",
+    "IOC": "SCG",
+    "continent": "missing",
+    "first_year": "1996"
+  },
+  {
+    "country": "Senegal",
+    "ISO": "SEN",
+    "IOC": "SEN",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Seychelles",
+    "ISO": "SYC",
+    "IOC": "SEY",
+    "continent": "Africa",
+    "first_year": "1980"
+  },
+  {
+    "country": "Singapore",
+    "ISO": "SGP",
+    "IOC": "SGP",
+    "continent": "Asia",
+    "first_year": "1948"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "ISO": "KNA",
+    "IOC": "SKN",
+    "continent": "North America",
+    "first_year": "1996"
+  },
+  {
+    "country": "Sierra Leone",
+    "ISO": "SLE",
+    "IOC": "SLE",
+    "continent": "Africa",
+    "first_year": "1968"
+  },
+  {
+    "country": "Slovenia",
+    "ISO": "SVN",
+    "IOC": "SLO",
+    "continent": "Europe",
+    "first_year": "1992"
+  },
+  {
+    "country": "San Marino",
+    "ISO": "SMR",
+    "IOC": "SMR",
+    "continent": "Europe",
+    "first_year": "1960"
+  },
+  {
+    "country": "Solomon Islands",
+    "ISO": "SLB",
+    "IOC": "SOL",
+    "continent": "Oceania",
+    "first_year": "1984"
+  },
+  {
+    "country": "Somalia",
+    "ISO": "SOM",
+    "IOC": "SOM",
+    "continent": "Africa",
+    "first_year": "1972"
+  },
+  {
+    "country": "Serbia",
+    "ISO": "SRB",
+    "IOC": "SRB",
+    "continent": "Europe",
+    "first_year": "1912"
+  },
+  {
+    "country": "Sri Lanka",
+    "ISO": "LKA",
+    "IOC": "SRI",
+    "continent": "Asia",
+    "first_year": "1948"
+  },
+  {
+    "country": "South Sudan",
+    "ISO": "SSD",
+    "IOC": "SSD",
+    "continent": "Africa",
+    "first_year": "2016"
+  },
+  {
+    "country": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "ISO": "STP",
+    "IOC": "STP",
+    "continent": "Africa",
+    "first_year": "1996"
+  },
+  {
+    "country": "Sudan",
+    "ISO": "SDN",
+    "IOC": "SUD",
+    "continent": "Africa",
+    "first_year": "1960"
+  },
+  {
+    "country": "Switzerland",
+    "ISO": "CHE",
+    "IOC": "SUI",
+    "continent": "Europe",
+    "first_year": "1896"
+  },
+  {
+    "country": "Suriname",
+    "ISO": "SUR",
+    "IOC": "SUR",
+    "continent": "South America",
+    "first_year": "1968"
+  },
+  {
+    "country": "Slovakia",
+    "ISO": "SVK",
+    "IOC": "SVK",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Sweden",
+    "ISO": "SWE",
+    "IOC": "SWE",
+    "continent": "Europe",
+    "first_year": "1896"
+  },
+  {
+    "country": "Swaziland",
+    "ISO": "SWZ",
+    "IOC": "SWZ",
+    "continent": "Africa",
+    "first_year": "1972"
+  },
+  {
+    "country": "Syria",
+    "ISO": "SYR",
+    "IOC": "SYR",
+    "continent": "Asia",
+    "first_year": "1948"
+  },
+  {
+    "country": "Tanzania",
+    "ISO": "TZA",
+    "IOC": "TAN",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Czechoslovakia",
+    "ISO": "missing",
+    "IOC": "TCH",
+    "continent": "missing",
+    "first_year": "1920"
+  },
+  {
+    "country": "Tonga",
+    "ISO": "TON",
+    "IOC": "TGA",
+    "continent": "Oceania",
+    "first_year": "1984"
+  },
+  {
+    "country": "Thailand",
+    "ISO": "THA",
+    "IOC": "THA",
+    "continent": "Asia",
+    "first_year": "1952"
+  },
+  {
+    "country": "Tajikistan",
+    "ISO": "TJK",
+    "IOC": "TJK",
+    "continent": "Asia",
+    "first_year": "1996"
+  },
+  {
+    "country": "Turkmenistan",
+    "ISO": "TKM",
+    "IOC": "TKM",
+    "continent": "Asia",
+    "first_year": "1996"
+  },
+  {
+    "country": "East Timor",
+    "ISO": "TLS",
+    "IOC": "TLS",
+    "continent": "Asia",
+    "first_year": "2004"
+  },
+  {
+    "country": "Togo",
+    "ISO": "TGO",
+    "IOC": "TOG",
+    "continent": "Africa",
+    "first_year": "1972"
+  },
+  {
+    "country": "Chinese Taipei",
+    "ISO": "TWN",
+    "IOC": "TPE",
+    "continent": "Asia",
+    "first_year": "1984"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "ISO": "TTO",
+    "IOC": "TTO",
+    "continent": "North America",
+    "first_year": "1948"
+  },
+  {
+    "country": "Tunisia",
+    "ISO": "TUN",
+    "IOC": "TUN",
+    "continent": "Africa",
+    "first_year": "1960"
+  },
+  {
+    "country": "Turkey",
+    "ISO": "TUR",
+    "IOC": "TUR",
+    "continent": "Europe",
+    "first_year": "1908"
+  },
+  {
+    "country": "Tuvalu",
+    "ISO": "TUV",
+    "IOC": "TUV",
+    "continent": "Oceania",
+    "first_year": "2008"
+  },
+  {
+    "country": "United Arab Emirates",
+    "ISO": "ARE",
+    "IOC": "UAE",
+    "continent": "Asia",
+    "first_year": "1984"
+  },
+  {
+    "country": "Uganda",
+    "ISO": "UGA",
+    "IOC": "UGA",
+    "continent": "Africa",
+    "first_year": "1956"
+  },
+  {
+    "country": "Ukraine",
+    "ISO": "UKR",
+    "IOC": "UKR",
+    "continent": "Europe",
+    "first_year": "1996"
+  },
+  {
+    "country": "Soviet Union",
+    "ISO": "missing",
+    "IOC": "URS",
+    "continent": "missing",
+    "first_year": "1952"
+  },
+  {
+    "country": "Uruguay",
+    "ISO": "URY",
+    "IOC": "URU",
+    "continent": "South America",
+    "first_year": "1924"
+  },
+  {
+    "country": "United States",
+    "ISO": "USA",
+    "IOC": "USA",
+    "continent": "North America",
+    "first_year": "1896"
+  },
+  {
+    "country": "Uzbekistan",
+    "ISO": "UZB",
+    "IOC": "UZB",
+    "continent": "Asia",
+    "first_year": "1996"
+  },
+  {
+    "country": "Vanuatu",
+    "ISO": "VUT",
+    "IOC": "VAN",
+    "continent": "Oceania",
+    "first_year": "1988"
+  },
+  {
+    "country": "Venezuela",
+    "ISO": "VEN",
+    "IOC": "VEN",
+    "continent": "South America",
+    "first_year": "1948"
+  },
+  {
+    "country": "Vietnam",
+    "ISO": "VNM",
+    "IOC": "VIE",
+    "continent": "Asia",
+    "first_year": "1952"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "ISO": "VCT",
+    "IOC": "VIN",
+    "continent": "North America",
+    "first_year": "1988"
+  },
+  {
+    "country": "North Yemen",
+    "ISO": "missing",
+    "IOC": "YAR",
+    "continent": "missing",
+    "first_year": "1984"
+  },
+  {
+    "country": "Yemen",
+    "ISO": "YEM",
+    "IOC": "YEM",
+    "continent": "Asia",
+    "first_year": "1992"
+  },
+  {
+    "country": "South Yemen",
+    "ISO": "missing",
+    "IOC": "YMD",
+    "continent": "missing",
+    "first_year": "1988"
+  },
+  {
+    "country": "Yugoslavia",
+    "ISO": "missing",
+    "IOC": "YUG",
+    "continent": "missing",
+    "first_year": "1920"
+  },
+  {
+    "country": "Zambia",
+    "ISO": "ZMB",
+    "IOC": "ZAM",
+    "continent": "Africa",
+    "first_year": "1964"
+  },
+  {
+    "country": "Zimbabwe",
+    "ISO": "ZWE",
+    "IOC": "ZIM",
+    "continent": "Africa",
+    "first_year": "1928"
+  }
+]

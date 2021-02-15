@@ -13,7 +13,7 @@ const GraphExplain = () => {
   return (
     <div className="graph-explain-container">
       <p>Data source: <a href="https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Summer_Olympic_Games" target="_blank">Wikipedia</a></p>
-      <p className="disclaimer">* check source for more details on countries / notes etc.</p>
+      <p className="disclaimer">Use the source to research further. Why did certain countries enter the Olympics later than others? Which countries were part of others previously; did they welcome the chance to participate the in the Olympics independantly?</p>
     </div>
   )
 }
@@ -150,8 +150,8 @@ const FirstTimeParticipate = () => {
       /// define the force ///
       const simulation = d3.forceSimulation(data)
         // the .strength() for x and y forces can slow them down and speed them up 
-        .force("y", d3.forceY((d, i) => height/1.7 - startingYPosition).strength(0.01))
-        .force("x", d3.forceX((d, i) =>  xScale(+d.first_year) + xScale.bandwidth()/2 - startingXPosition).strength(0.01))
+        .force("y", d3.forceY((d, i) => height/1.6 - startingYPosition).strength(0.01))
+        .force("x", d3.forceX((d, i) =>  xScale(+d.first_year) + xScale.bandwidth()/2 - startingXPosition).strength(0.03))
         .force("collide", d3.forceCollide(10))
         .alphaDecay(0.001) // this makes the collide force more or less gittery
         .on("tick", tick)
@@ -178,8 +178,8 @@ const FirstTimeParticipate = () => {
       .on('mouseenter', (e, datum) => {
         tooltip 
         .style('transform', d => `translate(
-            ${xScale(+datum.first_year) + xScale.bandwidth()/2}px,
-            ${100}px`
+            ${xScale(+datum.first_year)}px,
+            ${120}px`
           ) 
         .style("opacity", 1)
         .text(`${datum.country} ${datum.first_year}`)
@@ -310,7 +310,7 @@ const FirstTimeParticipate = () => {
         onClick={toggleGraphExplanation}
       >
         <FontAwesomeIcon icon={faBookOpen} />
-        <span className="info-span">info</span>
+        <span className="info-span"></span>
       </button>  
       {
         revealGraphExplanation 
@@ -327,6 +327,7 @@ const FirstTimeParticipate = () => {
         </svg>
         <div className="play-button-first-time" ref={playButtonRef}>play</div>
         <div className="tooltip-first-time" ref={tooltipRef}>Tooltip</div>
+        <div className="mascot-first-time"></div>
       </div>
 
     </div>

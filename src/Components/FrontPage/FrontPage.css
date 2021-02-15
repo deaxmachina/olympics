@@ -1,0 +1,128 @@
+.container-front-page {
+  margin: auto;
+  text-align: center;
+  color: #403d39;
+  border-radius: 0px;
+  padding: 50px 0;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.title-decoration-front-page {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.olympic-circle {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.olympic-circle:nth-of-type(1) {
+  background-color: #219ebc;
+}
+.olympic-circle:nth-of-type(2) {
+  background-color: #f8961e;
+}
+.olympic-circle:nth-of-type(3) {
+  background-color: #2a9d8f;
+}
+.olympic-circle:nth-of-type(4) {
+  background-color: #AB2E64;
+}
+
+.title-front-page {
+  margin: auto;
+  color: #252422;
+  font-size: 40px;
+}
+
+.content-front-page {
+  display: flex;
+  width: 70%;
+  margin: 50px auto;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items:flex-end;
+}
+
+.explanation-front-page {
+  width:100%;
+  margin: auto;
+  margin-right: 40px;
+  text-align: left;
+}
+
+.contents-list-front-page {
+  width:100%;
+  margin: auto;
+  text-align: left;
+  border: 10px solid white;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 15px 20px;
+}
+
+.contents-label-front-page {
+  text-decoration: underline;
+}
+
+.contents-list-front-page p {
+  font-weight: bold;
+  line-height: 200%;
+  
+}
+
+.contents-list-front-page p:hover {
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 0px 15px;
+}
+
+.contents-list-front-page p:nth-of-type(1):hover {
+  color: #219ebc;
+}
+
+.contents-list-front-page p:nth-of-type(2):hover {
+  color: #f8961e;
+}
+
+.contents-list-front-page p:nth-of-type(3):hover {
+  color: #2a9d8f;
+}
+
+.contents-list-front-page p:nth-of-type(4):hover {
+  color: #AB2E64;
+}
+
+@media(max-width: 800px) {
+  .title-decoration-front-page {
+    width: 90%;
+  }
+  .container-front-page {
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    padding: 50px 0 0;
+  }
+  .content-front-page {
+    width: 90%;
+    margin: 50px auto;
+    display: block;
+  }
+  .explanation-front-page {
+    margin: auto;
+    text-align: left;
+  } 
+  .contents-list-front-page {
+    margin: auto;
+    margin-top: 50px;
+  }
+  .title-front-page {
+    font-size: 30px;
+  }
+}

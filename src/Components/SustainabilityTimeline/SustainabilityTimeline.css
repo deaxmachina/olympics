@@ -1,5 +1,6 @@
 .page-container-sustainability-timeline {
   color: #2a9d8f;
+  position: relative;
 }
 
 .graph-title-sustainability-timeline {
@@ -21,7 +22,7 @@
   left: 0;
   padding: 0.8em;
   background: white;
-  color: black;
+  color: #403d39;
   z-index: 10;
   transition: all 0.2s ease-out;
   pointer-events: none;  
@@ -46,4 +47,24 @@
 .tooltip-sustainability-timeline-info {
   display: block;
   font-size: 12px;
+}
+
+.mascot-sustainability-timeline {
+  background-image: url("./鳩1.svg");
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0px;
+  right: 20%;
+}
+
+@media(max-width: 900px) {
+  .mascot-sustainability-timeline {
+    right: 10%;
+  }
+}
+@media(max-width: 600px) {
+  .mascot-sustainability-timeline {
+    right: 5%;
+  }
 }

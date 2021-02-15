@@ -10,6 +10,7 @@ body {
   text-align: center;
   margin: auto;
   background-color: #f2e9e4;
+  color: #403d39;
 }
 
 .page-container {
@@ -47,13 +48,13 @@ body {
 
 .graph-explain-container {
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   width: 60%;
-  text-align: center;
+  text-align: left;
 }
 
 /* links */
 a {
-  color: #293241;
+  color: #403d39;
   text-decoration: none;
 }
