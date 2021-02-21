@@ -78,6 +78,20 @@ a {
   text-decoration: none;
 }
 
+::selection {
+  background: white; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: white; /* Gecko Browsers */
+}
+
+.graph-title::selection {
+  background: #fde7e7; /* WebKit/Blink Browsers */
+}
+
+.graph-title::-moz-selection {
+  background: #fde7e7; /* Gecko Browsers */
+}
 
 /************* media queries *************/
 @media(max-width: 900px) {
