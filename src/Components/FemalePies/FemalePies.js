@@ -202,7 +202,8 @@ const FemalePies = () => {
 
   return (
     <div className="page-container page-container-female-pies">
-      <h2 className="graph-title-female-pies">What is the athelete gender split at the Olympics?</h2>
+      <h2 className="graph-title graph-title-female-pies">What is the athelete gender split at the Olympics?</h2>
+      <div className="mascot-female-pies"></div>
       <button 
         className="graph-explain-icon" 
         onClick={toggleGraphExplanation}

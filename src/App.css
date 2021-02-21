@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-* {
+*, body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 }
 
 .page-container {
+  position: relative;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -53,8 +55,36 @@ body {
   text-align: left;
 }
 
+.graph-title {
+  margin: auto;
+  font-size: 32px;
+  background-color: white;
+  padding: 8px 12px;
+  width: 60%;
+  border-radius: 100px;
+}
+
 /* links */
 a {
   color: #403d39;
   text-decoration: none;
+}
+
+@media(max-width: 900px) {
+  .graph-title {
+    font-size: 26px;
+    width: 70%;
+  }
+}
+
+@media(max-width: 600px) {
+  .graph-title {
+    font-size: 22px;
+    padding: 8px 24px;
+    width: 80%;
+    text-align: left;
+  }
+  .graph-explain-container {
+    width: 80%;
+  }
 }

@@ -4,12 +4,6 @@
 }
 
 .graph-title-female-pies {
-  margin: auto;
-  font-size: 32px;
-  background-color: white;
-  padding: 8px;
-  width: 60%;
-  border-radius: 100px;
 }
 
 .reveal-button-pie {
@@ -22,4 +16,39 @@
   cursor: default;
   font-weight: bold;
   font-size: 18px;
+}
+
+.mascot-female-pies { 
+  background-image: url("./鳩4.svg");
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -3px;
+  right: 19%;
+}
+
+@media(max-width: 1400px) {
+  .mascot-female-pies {
+    top: 0;
+    right: 13%;
+  }
+}
+@media(max-width: 1150px) {
+  .mascot-female-pies {
+    top: 15px;
+  }
+}
+@media(max-width: 900px) {
+  .mascot-female-pies {
+    top: 3px;
+    right: 3%;
+    width: 70px;
+    height: 70px;
+  }
+}
+@media(max-width: 600px) {
+  .mascot-female-pies {
+    top: 23px;
+    right: 5%;
+  }
 }

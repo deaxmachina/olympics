@@ -304,7 +304,8 @@ const FirstTimeParticipate = () => {
 
   return (
     <div className="page-container page-container-first-time">
-      <h2 className="graph-title-first-time">When did countries first participate in the Olympics?</h2>
+      <h2 className="graph-title graph-title-first-time">When did countries first participate in the Olympics?</h2>
+      <div className="mascot-first-time"></div>
       <button 
         className="graph-explain-icon" 
         onClick={toggleGraphExplanation}
@@ -327,7 +328,6 @@ const FirstTimeParticipate = () => {
         </svg>
         <div className="play-button-first-time" ref={playButtonRef}>play</div>
         <div className="tooltip-first-time" ref={tooltipRef}>Tooltip</div>
-        <div className="mascot-first-time"></div>
       </div>
 
     </div>

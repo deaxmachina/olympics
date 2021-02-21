@@ -4,15 +4,10 @@
 
 .page-container-first-time {
   color: #219ebc;
+  position: relative;
 }
 
 .graph-title-first-time {
-  margin: auto;
-  font-size: 32px;
-  background-color: white;
-  padding: 8px;
-  width: 60%;
-  border-radius: 100px;
 }
 
 .play-button-first-time {
@@ -52,6 +47,36 @@
 }
 
 .mascot-first-time { 
-  width: 100px;
-  height: 100px;
+  background-image: url("./鳩3.svg");
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -3px;
+  right: 19%;
+}
+
+@media(max-width: 1400px) {
+  .mascot-first-time {
+    top: 0;
+    right: 13%;
+  }
+}
+@media(max-width: 1150px) {
+  .mascot-first-time {
+    top: 15px;
+  }
+}
+@media(max-width: 900px) {
+  .mascot-first-time {
+    top: 3px;
+    right: 3%;
+    width: 70px;
+    height: 70px;
+  }
+}
+@media(max-width: 600px) {
+  .mascot-first-time {
+    top: 33px;
+    right: 3%;
+  }
 }

@@ -243,7 +243,7 @@ const SustainabilityTimeline = () => {
   return (
     <div className="page-container page-container-sustainability-timeline">
       <div className="mascot-sustainability-timeline"></div>
-      <h2 className="graph-title-sustainability-timeline">How do the Olympics impact the environment?</h2>
+      <h2 className="graph-title graph-title-sustainability-timeline">How do the Olympics impact the environment?</h2>
       <button 
         className="graph-explain-icon" 
         onClick={toggleGraphExplanation}
