@@ -310,7 +310,7 @@ const Paralympics = () => {
   }
 
   return (
-    <div className="page-container page-container-paralympics">
+    <div className="page-container page-container-paralympics" id="paralympics">
       <h2 className="graph-title graph-title-paralympics">What is the history and timeline of the Paralympics?</h2>
       <div className="mascot-paralympics"></div>
       <button 

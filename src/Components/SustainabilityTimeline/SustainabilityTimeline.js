@@ -241,7 +241,7 @@ const SustainabilityTimeline = () => {
   }
 
   return (
-    <div className="page-container page-container-sustainability-timeline">
+    <div className="page-container page-container-sustainability-timeline" id="environment">
       <div className="mascot-sustainability-timeline"></div>
       <h2 className="graph-title graph-title-sustainability-timeline">How do the Olympics impact the environment?</h2>
       <button 

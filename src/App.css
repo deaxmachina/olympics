@@ -16,9 +16,7 @@ body {
 
 .page-container {
   position: relative;
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px auto;
   text-align: center;
 }
 

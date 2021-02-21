@@ -303,7 +303,7 @@ const FirstTimeParticipate = () => {
   }
 
   return (
-    <div className="page-container page-container-first-time">
+    <div className="page-container page-container-first-time" id="first-time">
       <h2 className="graph-title graph-title-first-time">When did countries first participate in the Olympics?</h2>
       <div className="mascot-first-time"></div>
       <button 
