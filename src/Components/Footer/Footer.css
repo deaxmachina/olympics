@@ -1,0 +1,31 @@
+.footer {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  margin-top: 50px;
+  height: 40px;
+}
+
+.footer-text {
+  font-size: 10px;
+  display: inline;
+  color: #219ebc;
+}
+
+.footer-pigeon {
+  display: inline;
+  background-image: url("./鳩3.svg");
+  width: 20px;
+  height: 20px;
+}
+
+@media(max-width: 500px){
+  .footer-text {
+    font-size: 8px;
+  }
+}
