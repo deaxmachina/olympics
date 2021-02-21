@@ -18,10 +18,10 @@ const GraphExplain = () => {
         </a>
       </p>
       <p className="disclaimer"> 
-        Timeline of major positive and negative envornmental events/initiatives/outcomes at or realted to the Olympics. Based on events described in paper by Maria Konstantaki (2018). 
+        Timeline of major positive and negative environmental events/initiatives/outcomes at or related to the Olympics. Based on events described in paper by Maria Konstantaki (2018). 
       </p>
       <p className="disclaimer"> 
-        What do you think the positive and negative environmental impacts of the Olympics are? Do you know about the recycling efforts for Tokyo 2020? Why do you think the medals were made from recycled electronics, for example? What would you do? 
+        What do you think the positive and negative environmental impact of the Olympics is? Do you know about the recycling efforts for Tokyo 2020? Why do you think the medals were made from recycled electronics, for example? What would you do if you were organising the games to ensure they have a positive impact? 
       </p>
     </div>
   )

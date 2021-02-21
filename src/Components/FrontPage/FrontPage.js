@@ -21,7 +21,7 @@ const FrontPage = () => {
           <a href="#first-time"><p>When did countries first participate in the Olympics?</p></a>
           <a href="#paralympics"><p>What is the history and timeline of the Paralympics?</p></a>
           <a href="#environment"><p>How do the Olympics impact the environment?</p></a>   
-          <a href="#gender"><p>What is the athlete gender split at the Olympics?</p></a>       
+          <a href="#gender"><p>What is the athlete  gender split at the Olympics?</p></a>       
         </div>
       </div>
 

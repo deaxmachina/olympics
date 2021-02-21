@@ -13,7 +13,7 @@ const GraphExplain = () => {
   return (
     <div className="graph-explain-container">
       <p>Data source: <a href="https://en.wikipedia.org/wiki/List_of_participating_nations_at_the_Summer_Olympic_Games" target="_blank">Wikipedia</a></p>
-      <p className="disclaimer">Use the source to research further. Why did certain countries enter the Olympics later than others? Which countries were part of others previously; did they welcome the chance to participate the in the Olympics independantly?</p>
+      <p className="disclaimer">Use the source to research further. Why did certain countries enter the Olympics later than others? Which countries or regions participated as part of other entities previously; did they welcome the chance to compete in the Olympics independently?</p>
     </div>
   )
 }

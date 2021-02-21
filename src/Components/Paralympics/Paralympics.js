@@ -23,7 +23,7 @@ const GraphExplain = () => {
         and 
         <a href="https://www.britannica.com/sports/Paralympic-Games" target="_blank"> Britannica </a> 
       </p>
-      <p className="disclaimer">Were you surprised to learn about the beginnings of the Patalympics; what did you think before? Research the qualifying criterial for athletes over time. Is there a trend? If you could include other groups of people, which would they be?</p>
+      <p className="disclaimer">Were you surprised to learn about the beginnings of the Patalympics; if so, what did you think before? Research the qualifying criteria for athletes over time. Is there a trend? If you could include other groups of people, what would these be?</p>
     </div>
   )
 }
