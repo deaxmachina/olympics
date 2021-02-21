@@ -5,7 +5,7 @@ import * as d3 from "d3";
 import "./FirstTimeParticipate.css";
 import dataLoad from "../../data/countries_first_year.json";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
+import { faBookOpen, faHome } from '@fortawesome/free-solid-svg-icons'
 import _ from "lodash"
 import chroma from "chroma-js";
 
@@ -306,8 +306,14 @@ const FirstTimeParticipate = () => {
     <div className="page-container page-container-first-time" id="first-time">
       <h2 className="graph-title graph-title-first-time">When did countries first participate in the Olympics?</h2>
       <div className="mascot-first-time"></div>
+
+      <button className="icon home-icon">
+        <a href="#home" className="home-first-time"><FontAwesomeIcon icon={faHome}/></a>
+        <span className="info-span"></span>
+      </button>  
+
       <button 
-        className="graph-explain-icon" 
+        className="icon graph-explain-icon" 
         onClick={toggleGraphExplanation}
       >
         <FontAwesomeIcon icon={faBookOpen} />

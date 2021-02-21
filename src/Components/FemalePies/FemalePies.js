@@ -6,7 +6,7 @@ import chroma from "chroma-js";
 import rough from 'roughjs/bundled/rough.cjs';
 import dataLoad from "../../data/female_summer_olympics.csv";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
+import { faBookOpen, faHome } from '@fortawesome/free-solid-svg-icons'
 import Pie from "./Pie";
 
 const GraphExplain = () => {
@@ -204,8 +204,14 @@ const FemalePies = () => {
     <div className="page-container page-container-female-pies" id="gender">
       <h2 className="graph-title graph-title-female-pies">What is the athelete gender split at the Olympics?</h2>
       <div className="mascot-female-pies"></div>
+
+      <button className="icon home-icon">
+        <a href="#home" className="home-female-pies"><FontAwesomeIcon icon={faHome}/></a>
+        <span className="info-span"></span>
+      </button>  
+
       <button 
-        className="graph-explain-icon" 
+        className="icon graph-explain-icon" 
         onClick={toggleGraphExplanation}
       >
         <FontAwesomeIcon icon={faBookOpen}/>

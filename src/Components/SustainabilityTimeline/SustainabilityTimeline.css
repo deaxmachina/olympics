@@ -3,6 +3,10 @@
   position: relative;
 }
 
+.home-sustainability-timeline {
+  color: #2a9d8f;
+}
+
 .graph-title-sustainability-timeline {
 }
 
@@ -48,19 +52,19 @@
   width: 80px;
   height: 80px;
   position: absolute;
-  top: -3px;
+  top: 27px;
   right: 19%;
 }
 
 @media(max-width: 1400px) {
   .mascot-sustainability-timeline {
-    top: 0;
+    top: 30;
     right: 13%;
   }
 }
 @media(max-width: 900px) {
   .mascot-sustainability-timeline {
-    top: 3px;
+    top: 33px;
     right: 3%;
     width: 70px;
     height: 70px;
@@ -68,7 +72,7 @@
 }
 @media(max-width: 600px) {
   .mascot-sustainability-timeline {
-    top: 13px;
+    top: 43px;
     right: 5%;
   }
 }

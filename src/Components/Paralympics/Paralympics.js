@@ -8,7 +8,7 @@ import dataLoad from "../../data/paralympics.csv";
 import dataLoadSports from "../../data/paralympics_sports.csv"
 import dataLoadLogos from "../../data/sports_logos.csv"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
+import { faBookOpen, faHome } from '@fortawesome/free-solid-svg-icons'
 import { annotationCalloutElbow, annotationCalloutCurve, annotation } from "d3-svg-annotation";
 
 // Sources: 
@@ -313,8 +313,14 @@ const Paralympics = () => {
     <div className="page-container page-container-paralympics" id="paralympics">
       <h2 className="graph-title graph-title-paralympics">What is the history and timeline of the Paralympics?</h2>
       <div className="mascot-paralympics"></div>
+
+      <button className="icon home-icon">
+        <a href="#home" className="home-paralympics"><FontAwesomeIcon icon={faHome}/></a>
+        <span className="info-span"></span>
+      </button>  
+
       <button 
-        className="graph-explain-icon" 
+        className="icon graph-explain-icon" 
         onClick={toggleGraphExplanation}
       >
         <FontAwesomeIcon icon={faBookOpen} />

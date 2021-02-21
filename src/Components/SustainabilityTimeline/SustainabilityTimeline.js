@@ -8,7 +8,7 @@ import chroma from "chroma-js";
 import rough from 'roughjs/bundled/rough.cjs';
 import dataLoad from "../../data/environmental_cal.csv";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBookOpen, faTree, faGrinStars, faLaughBeam } from '@fortawesome/free-solid-svg-icons'
+import { faBookOpen, faLaughBeam, faHome } from '@fortawesome/free-solid-svg-icons'
 
 const GraphExplain = () => {
   return (
@@ -244,8 +244,14 @@ const SustainabilityTimeline = () => {
     <div className="page-container page-container-sustainability-timeline" id="environment">
       <div className="mascot-sustainability-timeline"></div>
       <h2 className="graph-title graph-title-sustainability-timeline">How do the Olympics impact the environment?</h2>
+
+      <button className="icon home-icon">
+        <a href="#home" className="home-sustainability-timeline"><FontAwesomeIcon icon={faHome}/></a>
+        <span className="info-span"></span>
+      </button>  
+
       <button 
-        className="graph-explain-icon" 
+        className="icon graph-explain-icon" 
         onClick={toggleGraphExplanation}
       >
         <FontAwesomeIcon icon={faBookOpen} />

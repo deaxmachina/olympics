@@ -3,7 +3,7 @@ import "./FrontPage.css";
 
 const FrontPage = () => {
   return (
-    <div className="container-front-page">
+    <div className="container-front-page" id="home">
       <div className="title-decoration-front-page">
         <div className="olympic-circle"></div>
         <div className="olympic-circle"></div>

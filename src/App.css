@@ -14,9 +14,12 @@ body {
   color: #403d39;
 }
 
+
+/**************** container ***************/
 .page-container {
   position: relative;
   margin: 100px auto;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -28,8 +31,13 @@ body {
 }
 
 
-/* for the button with graph info */
-.graph-explain-icon {
+/**************** icons ***************/
+.icon {
+  display: inline-block;
+  margin-left: 5px !important;
+}
+
+.graph-explain-icon, .home-icon {
   padding: 2px;
   margin: 20px auto;
   text-align: center;
@@ -53,6 +61,8 @@ body {
   text-align: left;
 }
 
+
+/**************** text ***************/
 .graph-title {
   margin: auto;
   font-size: 32px;
@@ -68,6 +78,8 @@ a {
   text-decoration: none;
 }
 
+
+/************* media queries *************/
 @media(max-width: 900px) {
   .graph-title {
     font-size: 26px;
