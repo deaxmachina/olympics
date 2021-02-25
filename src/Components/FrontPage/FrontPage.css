@@ -100,6 +100,13 @@
   color: #AB2E64;
 }
 
+.jp-link {
+  color: #AB2E64;
+  background: white;
+  padding: 0px 5px;
+  border-radius: 10px;
+}
+
 @media(max-width: 800px) {
   .title-decoration-front-page {
     width: 90%;

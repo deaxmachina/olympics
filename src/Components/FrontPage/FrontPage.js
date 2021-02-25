@@ -14,7 +14,7 @@ const FrontPage = () => {
 
       <div className="content-front-page">
         <div className="explanation-front-page">
-          Materials for a collaborative project between the Universites of Tokyo and Tsukuba on the topic of "School Trip Around the Olympics Sports Museum". The questions and accompanying visualisations serve the purpose of cues for group discussions among the students before they visit the museum. They aim to bring up important topics around the history and goals of the Olympics and Paralympics, aimed at secondary school students in Japan. This is a rough draft =) 
+          Materials for a collaborative project between the Universites of Tokyo and Tsukuba on the topic of "School Trip Around the Olympics Sports Museum". The questions and accompanying visualisations serve the purpose of cues for group discussions among the students before they visit the museum. They aim to bring up important topics around the history and goals of the Olympics and Paralympics, aimed at secondary school students in Japan. This is a rough draft =). Ideally we would like to explore further topics and find more appropriate materials around the selected ones. Japanese version <a href="https://olympicsjp.netlify.app/" target="_blank" className="jp-link">here</a>
         </div>
         <div className="contents-list-front-page">
           <h2 className="contents-label-front-page">Contents</h2>

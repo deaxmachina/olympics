@@ -166,7 +166,6 @@ const SustainabilityTimeline = () => {
       const tooltip = d3.select(tooltipRef.current)
       eventCircles
       .on('mouseenter', (e, datum) => {
-        console.log(datum)
         setSelectedEvent(datum)
         tooltip 
         .style('transform', d => `translate(

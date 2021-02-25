@@ -23,7 +23,7 @@ const GraphExplain = () => {
         and 
         <a href="https://www.britannica.com/sports/Paralympic-Games" target="_blank"> Britannica </a> 
       </p>
-      <p className="disclaimer">Were you surprised to learn about the beginnings of the Patalympics; if so, what did you think before? Research the qualifying criteria for athletes over time. Is there a trend? If you could include other groups of people, what would these be?</p>
+      <p className="disclaimer">Were you surprised to learn about the beginnings of the Paralympics; if so, what did you think before? Research the qualifying criteria for athletes over time. Is there a trend? If you could include other groups of people, what would these be?</p>
     </div>
   )
 }
@@ -283,7 +283,7 @@ const Paralympics = () => {
           tooltipSports 
           .style('transform', d => `translate(
             ${xScale(+datum.year)}px,
-            ${height + 30}px`
+            ${height + 45}px`
           ) 
           .style("opacity", 1)
           .html(`${datum.sport}`)
