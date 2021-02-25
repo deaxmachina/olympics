@@ -6,14 +6,13 @@
 ## Website
 https://olympics.netlify.app/
 
-<p float="left">
   <div style="display: inline-block">
     <a data-flickr-embed="true" href="https://www.flickr.com/photos/192110190@N06/50978525491/in/dateposted-public/" title="olympics1"><img src="https://live.staticflickr.com/65535/50978525491_6ef852eb12_z.jpg" width="300" alt="olympics1"></a>
   </div>
   <div style="display: inline-block">
     <a data-flickr-embed="true" href="https://www.flickr.com/photos/192110190@N06/50978525421/in/dateposted-public/" title="olympics2"><img src="https://live.staticflickr.com/65535/50978525421_dcd6369eb5_z.jpg" width="300" alt="olympics2"></a>
   </div>
-</p>
+
 
 
 
