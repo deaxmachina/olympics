@@ -50,8 +50,8 @@ const Paralympics = () => {
   /// constatns ///
   // dimensions 
   const width = 1300;
-  const height = 500;
-  const margin = {top: 60, right: 20, bottom: 0, left: 40}
+  const height = 650;
+  const margin = {top: 30, right: 20, bottom: 20, left: 40}
   const sportsRadius = 10;
   // colours 
   const barsColour = "#219ebc"
@@ -172,7 +172,7 @@ const Paralympics = () => {
           tooltipParticipants 
           .style('transform', d => `translate(
               ${xScale(+datum.year) - xScale.bandwidth()/2}px,
-              ${yScaleAthletes(datum.competitors) - 120}px`
+              ${yScaleAthletes(datum.competitors) - 30}px`
             ) 
           .style("opacity", 1)
           .html(`
@@ -196,10 +196,10 @@ const Paralympics = () => {
           label: "The Paralympics developed after Sir Ludwig Guttmann organized a sports competition for British World War II veterans with spinal cord injuries in England in 1948.",
           title: "Beginnings: 1948"
         },
-        dy: -120,
+        dy: -160,
         dx: 50,
         x: 10,
-        y: 310,
+        y: 360,
         color: barsColour,
       }]
     const makeAnnotations = annotation()
@@ -283,7 +283,7 @@ const Paralympics = () => {
           tooltipSports 
           .style('transform', d => `translate(
             ${xScale(+datum.year)}px,
-            ${height + 45}px`
+            ${height - margin.top*2}px`
           ) 
           .style("opacity", 1)
           .html(`${datum.sport}`)
@@ -333,7 +333,7 @@ const Paralympics = () => {
       } 
 
       <div className="wrapper wrapper-paralympics">
-        <svg id="svg-paralympics" ref={svgRef} width={width} height={height}>
+        <svg id="svg-paralympics" ref={svgRef} width={width} height={height+margin.bottom}>
             <g ref={gAthletesRef} className="g-athletes"></g>
             <g ref={gSportsRef} className="g-sports"></g>
             <g ref={xAxisRef} className="g-axis"></g>

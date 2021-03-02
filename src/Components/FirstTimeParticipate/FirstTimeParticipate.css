@@ -1,4 +1,5 @@
 .wrapper-first-time {
+  width: 100%;
   overflow: auto;
 }
 
@@ -80,7 +81,7 @@
 }
 @media(max-width: 600px) {
   .mascot-first-time {
-    top: 63px;
-    right: 3%;
+    top: 13px;
+    right: 5%;
   }
 }

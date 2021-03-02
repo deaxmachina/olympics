@@ -1,6 +1,6 @@
-
 .wrapper-paralympics {
-  position: relative;
+  overflow-x: auto;
+  overflow-y: visible;
 }
 
 .page-container-paralympics {
@@ -57,7 +57,7 @@ svg {
 .paralympics-label-top, .paralympics-label-bottom  {
   transform: rotate(0deg);
   position: absolute;
-  left: 0px;
+  left: 40px;
   text-transform: uppercase;
   background-color: white;
   padding: 2px 10px;
@@ -65,12 +65,12 @@ svg {
 }
 
 .paralympics-label-top {
-  top: 230px;
+  top: 280px;
   color: #219ebc;
 }
 
 .paralympics-label-bottom {
-  top: 350px;
+  top: 410px;
   color: #ff006e;
 }
 
@@ -101,10 +101,14 @@ svg {
     width: 70px;
     height: 70px;
   }
+  .wrapper-paralympics {
+    overflow-x: auto;
+    overflow-y: visible;
+  }
 }
 @media(max-width: 600px) {
   .mascot-paralympics {
-    top: 63px;
-    right: 3%;
+    top: 13px;
+    right: 5%;
   }
 }

@@ -16,10 +16,10 @@ const Pie = ({ show, setShow }) => {
 
   /// constatns ///
   // dimensions 
-  const height = 400;
+  const height = 370;
   const width = height;
   // for the pies 
-  const pieSize = 400; 
+  const pieSize = 370; 
   const innerRadius = 60;
   const outerRadius = pieSize/2 - 10;
   const padAngle = 0.1;
@@ -144,8 +144,8 @@ const Pie = ({ show, setShow }) => {
   }, [show]);
 
   return (
-      <div className="wrapper">
-        <svg ref={svgRef} width={width} height={height} id="svg-pie">
+      <div className="wrapper wrapper-female-pies">
+        <svg ref={svgRef} id="svg-pie">
           <g ref={gRef}></g>
           <g ref={revealButtonRef}></g>
         </svg>
