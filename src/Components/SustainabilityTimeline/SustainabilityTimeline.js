@@ -174,8 +174,8 @@ const SustainabilityTimeline = () => {
               datum.polarity == "negative"
               ? 100 + 100
               : datum.olympics == "no"
-                ? -200 + 100
-              : -100 + 100
+                ? 50
+              : 100
             }px`
           ) 
         .style("opacity", 1)
