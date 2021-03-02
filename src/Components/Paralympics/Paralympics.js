@@ -50,8 +50,8 @@ const Paralympics = () => {
   /// constatns ///
   // dimensions 
   const width = 1300;
-  const height = 650;
-  const margin = {top: 30, right: 20, bottom: 20, left: 40}
+  const height = 600;
+  const margin = {top: 50, right: 20, bottom: 20, left: 40}
   const sportsRadius = 10;
   // colours 
   const barsColour = "#219ebc"
@@ -172,7 +172,7 @@ const Paralympics = () => {
           tooltipParticipants 
           .style('transform', d => `translate(
               ${xScale(+datum.year) - xScale.bandwidth()/2}px,
-              ${yScaleAthletes(datum.competitors) - 30}px`
+              ${yScaleAthletes(datum.competitors) - 40}px`
             ) 
           .style("opacity", 1)
           .html(`
@@ -283,7 +283,7 @@ const Paralympics = () => {
           tooltipSports 
           .style('transform', d => `translate(
             ${xScale(+datum.year)}px,
-            ${height - margin.top*2}px`
+            ${height}px`
           ) 
           .style("opacity", 1)
           .html(`${datum.sport}`)
