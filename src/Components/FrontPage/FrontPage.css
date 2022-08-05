@@ -1,7 +1,7 @@
 .container-front-page {
   margin: auto;
   text-align: center;
-  color: #403d39;
+  color: #4a4d50;
   border-radius: 0px;
   padding: 50px 0;
   border-bottom-left-radius: 100px;
@@ -38,7 +38,9 @@
 .title-front-page {
   margin: auto;
   color: #252422;
-  font-size: 40px;
+  font-size: 46px;
+  margin: 50px auto;
+  padding: 5px 10px;
 }
 
 .content-front-page {
@@ -55,17 +57,24 @@
   margin: auto;
   margin-right: 40px;
   text-align: left;
+  font-size: 20px;
+  
 }
 
 .contents-list-front-page {
   width:100%;
   margin: auto;
   text-align: left;
-  border: 10px solid white;
+  border-top: 10px solid #f8961e;
+  border-bottom: 10px solid #f8961e;
+  /* border: 10px solid #fff; */
+  /* box-shadow: 2px 2px 20px white; */
   border-radius: 30px;
   box-sizing: border-box;
-  padding: 15px 20px;
+  padding: 15px 25px;
+  font-size: 20px;
 }
+
 
 .contents-label-front-page {
   text-decoration: underline;
